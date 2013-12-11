@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"s",
+				"box-shadow"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"ho",
+				"hover"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bloc",
+				"block-title"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"str_",
+				"str_replace"
+			],
+			[
+				"li",
+				"ligne"
+			],
+			[
+				"arts",
+				"artists_functions"
+			],
+			[
+				"art",
+				"artist"
+			],
+			[
+				"mysql_query",
+				"mysql_db_query"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"db",
+				"dbrelease"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"my",
+				"mysql_tablename"
+			],
+			[
+				"mys",
+				"mysql_connect"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"a",
+				"artist"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"bl",
+				"Black"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"ranger",
+				"ranger"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"con",
+				"Contact"
+			],
+			[
+				"arti",
+				"article	Tag"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"i",
+				"italic"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/orbit.css",
+			"settings":
+			{
+				"buffer_size": 4088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/jquery.orbit.js",
+			"settings":
+			{
+				"buffer_size": 16413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WAX-ZONE.html",
+			"settings":
+			{
+				"buffer_size": 14920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/studiomate/Documents/WEBSITES/puig2/index.html",
+			"settings":
+			{
+				"buffer_size": 26520,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/studiomate/Downloads/orbit-1.2.3/demo/demo.html",
+		"/Users/studiomate/Documents/WEBSITES/Wax-zone/WAX-ZONE.html",
+		"/Users/studiomate/Documents/WEBSITES/Backend rterv/index.html",
+		"/Users/studiomate/Documents/WEBSITES/Backend rterv/js/menu.js",
+		"/Users/studiomate/Documents/WEBSITES/Backend rterv/css/style.css",
+		"/Users/studiomate/Documents/WEBSITES/Stl rec/home.html",
+		"/Users/studiomate/Documents/WEBSITES/Backend rterv/bootstrap.html",
+		"/Users/studiomate/Documents/WEBSITES/puig2/index.html",
+		"/Users/studiomate/Documents/WEBSITES/puig2/img/background/ru_page_wellness.jpg",
+		"/Users/studiomate/Pictures/soundcloud-logo.gif",
+		"/Users/studiomate/Downloads/bootstrap/bootstrap.html",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/services.html",
+		"/Users/studiomate/Desktop/Brol/puigredo/www/ru/wp-content/themes/Broadside/css/standard.css",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/design.html",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/house.html",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/wellness-center.html",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/description.html",
+		"/Users/studiomate/Desktop/Brol/puigredo/www/css/template.css",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/css/style.css",
+		"/Users/studiomate/Documents/WEBSITES/Puigredo/css/template.css",
+		"/Users/studiomate/Desktop/Brol/puigredo/www/wp-blog-header.php",
+		"/Users/studiomate/Desktop/Brol/puigredo/www/wp-login.php",
+		"/Users/studiomate/Documents/git/PVI_Royal/Front End/js/bootstrap.min.js",
+		"/Applications/MAMP/htdocs/www/home.php",
+		"/Users/studiomate/Documents/WEBSITES/PVI/css/step2.css",
+		"/Users/studiomate/Documents/WEBSITES/PVI/js/design.js",
+		"/Users/studiomate/Documents/WEBSITES/PVI/js/modernizr.js",
+		"/Users/studiomate/Desktop/Responsive-Off-Canvas-Menu-master/step3-jquery.html",
+		"/Applications/MAMP/htdocs/www/style.css",
+		"/Users/studiomate/Desktop/Responsive-Off-Canvas-Menu-master/js/main.jquery.js",
+		"/Users/studiomate/Desktop/Responsive-Off-Canvas-Menu-master/js/main.js",
+		"/Users/studiomate/Desktop/Responsive-Off-Canvas-Menu-master/css/step3.css",
+		"/Applications/MAMP/htdocs/www/design.js",
+		"/Applications/MAMP/htdocs/www/classes/artists.class.php",
+		"/Applications/MAMP/htdocs/www/PHP/connect-mysql.php",
+		"/Users/studiomate/Documents/WEBSITES/Stl rec/home.php",
+		"/Users/studiomate/Desktop/aaa.html",
+		"/Users/studiomate/Documents/WEBSITES/test1/test.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"canpuigredo",
+			"http://www.canpuigredo.com/wp-content/uploads/2012/03/",
+			"http://www.canpuigredo.com/wp-content/uploads/2012/07/",
+			"http://www.canpuigredo.com/wp-content/uploads/2013/02/",
+			"http://www.canpuigredo.com/wp-content/uploads/2013/03/",
+			"http://www.canpuigredo.com/wp-content/uploads/2011/12/",
+			"http://www.canpuigredo.com/wp-content/uploads/2013/02/",
+			"http://www.canpuigredo.com/wp-content/uploads/2011/12/",
+			"img/house/",
+			"gcui",
+			"img/house",
+			"http://www.canpuigredo.com/wp-content/uploads/2013/02/",
+			"menu-home",
+			".form-action",
+			".form-act",
+			"block",
+			"body",
+			"none repeat",
+			"div main",
+			"block",
+			"nav",
+			"fbefdb",
+			"{\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"img/photos/wellness/",
+			"img/photos/",
+			"img/house/",
+			"img/house"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2201,
+								2092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 1125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/orbit.css",
+					"settings":
+					{
+						"buffer_size": 4088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3508,
+								3508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/jquery.orbit.js",
+					"settings":
+					{
+						"buffer_size": 16413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1338,
+								1338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "WAX-ZONE.html",
+					"settings":
+					{
+						"buffer_size": 14920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7564,
+								7564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1777.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/studiomate/Documents/WEBSITES/puig2/index.html",
+					"settings":
+					{
+						"buffer_size": 26520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 33.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

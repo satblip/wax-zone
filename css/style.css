@@ -1,0 +1,291 @@
+@font-face{
+font-family: title;
+src: url('../font/menu.woff'),
+	 url('../font/menu.ttf'),
+	 url('../font/menu.eot');
+} 
+
+body{	
+	background-color:#76715d;
+	color:#000000;
+	font-family:Arial;
+	font-size:12px;
+	margin-bottom: 0;
+}
+
+p {
+	line-height: 25px;
+}
+
+.container{
+	background-color: #f8f8f8;
+	width:900px;
+	margin: auto;
+	/*position: relative;
+	top: -8px;*/
+	padding:20px 20px 0 20px;
+	box-shadow: 6px 0px 30px 0 #ccc , -6px 0px 30px 0 #ccc;   
+	-moz-box-shadow: 6px 0 30px 0  #ccc, -6px 0 30px 0  #ccc;   
+	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; 
+	
+}
+
+.header{
+	margin-bottom: 20px;
+	position: relative;
+	top:-18px;
+	left: -16px;
+}
+
+.logo {
+	position: relative;
+	left:16px;
+}
+
+.logo:hover{
+	cursor: pointer;
+}
+
+.menu_container{
+	position: relative;
+	top:-46px;
+	left:-00px;
+	background: url(../img/back/menu_shadow.png) center bottom no-repeat;
+	width: 597px;
+	height: 70px;
+	float: right;
+}
+
+div .menu {
+	font-family: title;
+}
+
+.menu {
+	color:#78705d;
+	font-size:14px;
+}
+
+.menu ul li {
+	font-size:14px;
+	text-decoration: none;
+	display: inline;
+}
+	
+.menu li:hover{
+	color:#fc699b;
+	cursor: pointer;
+}
+
+.link {
+	padding-right: 24px;
+}
+
+.lang {
+	padding-right:0px;
+}
+
+.interligne{
+	background: url(../img/back/interligne.png) center bottom no-repeat;
+	height: 10px;
+	margin-top: 20px;
+}
+
+.all{
+	margin-top: 0px;
+}
+
+#slider{
+	/*margin-top: 20px;*/
+	/*margin-bottom: 20px;*/
+}
+
+.imgslider{
+	width: 900px;
+}
+
+.acceuilpromo{
+	padding-left: 18px;
+}
+
+.textacceuil {
+	
+}
+
+.acceuilitem {
+	display: inline-block;
+	width: 250px;
+}
+
+.margin1{
+	margin-right: 50px;
+}
+
+
+/*DIFFERENTS TEXTES*/
+
+h1 {
+	font-size: 29px;
+	color: #76715d;
+	font-family: title;
+	font-weight: normal !important;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+h2 {
+	font-size: 27px;
+	color: #76715d;
+	font-family: title;
+	font-weight: normal !important;
+	padding-top: 5px;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 17px;
+	color: #76715d;
+	font-family: title;
+	font-weight: normal !important;
+}
+
+h4 {
+	font-size: 20px;
+	color: #76715d;
+	font-family: title;
+	font-weight: normal !important;
+	margin-bottom: 10px;
+
+}
+
+.pink{
+	color:#fc699b;
+}
+
+.acceuil_contentimg{
+	background: url("../img/back/some_bg.png") repeat scroll 0% 0% transparent;
+	width: 250px;
+	margin-top: 15px;
+	height: 148px;
+	padding: 5px;
+}
+
+.pagetitle{
+	position: relative;
+	top: 7px;
+	left: 12px;
+}
+
+.imgbig{
+	width: 900px;
+	height: 300px;
+	border-radius: 4px;
+	margin-top: 14px;
+}
+
+
+/*CSS POUR LA PAGE CENTRES*/
+
+.centres{
+	/*display: inline;*/
+}
+
+.centreinfo{
+	width: 280px;
+	display: inline-block;
+
+}
+
+.centreimg{
+	display: inline-block;
+	
+}
+
+/*CSS POUR LA PAGE TARIFS*/
+
+.tarifs{
+	margin-top: 20px;
+}
+
+.table{
+	display: inline-block;
+}
+.tarifimg{
+	border-radius: 4px;
+	display: inline-block;
+	position: absolute;
+	top: 
+}
+
+.tarifimg>img{
+	width: 400px;
+}
+
+/*CSS POUR LES PAGE SOINS*/
+
+.soinsgauche{
+	display: inline-block;
+	margin-right: 280px;
+	position: relative;
+	top: -110px;
+}
+
+.soinsdroite{
+	display: inline-block;
+}
+
+.imgsoins{
+	display: block;
+	margin-top: 10px;
+}
+
+.textretrait{
+	padding-left: 30px;
+}
+
+.aligncenter{
+	text-align: center;
+}
+
+.ligneblock{
+	display: inline-block;
+}
+
+.axe{
+	width: 600px;
+	padding-left: 20px;
+}
+
+
+/*CSS POUR LES PAGE CONTACT*/
+
+.clic:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+footer {
+	/*margin-bottom:25px;*/
+	background-color: #f8f8f8;
+	/*width:940px;*/
+	margin: auto;
+	/*position: relative;
+	top: -8px;*/
+	/*padding:20px 20px 0 20px;
+	box-shadow: 6px 0px 30px 0 #ccc , -6px 0px 30px 0 #ccc;   
+	-moz-box-shadow: 6px 0 30px 0  #ccc, -6px 0 30px 0  #ccc;   
+	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; */
+}
+
+.copy{
+	/*float: left;*/
+}
+.footerlink{
+	float: right;
+}
+
+.footerlink ul li{
+	/*float: right;*/
+	text-decoration: none;
+	display: inline;
+}
