@@ -25,15 +25,15 @@
 			<div class='menu_container'>
 				<div class='menu'>
 					<ul>
-						<li id='concept_link' class='link'>Concept</li>
-						<li id='centres_link' class='link'>Centres</li>
-						<li id='tarifs_link' class='link'>Tarifs</li>
-						<li id='soins_link' class='link'>Soins & Marques</li>
-						<li id='spa_link' class='link'>Spa</li>
-						<li id='contact_link' class='link'>contact</li>
-						<li class='lang'>EN</li>
-						<li class='lang'>FR</li>
-						<li class='lang'>NL</li>
+						<li id='concept_link' class='link'><span name="lbl" caption="menuconcepttxt">Concept</span></li>
+						<li id='centres_link' class='link'><span name="lbl" caption="menucentrestxt">Centres</span></li>
+						<li id='tarifs_link' class='link'><span name="lbl" caption="menutarifstxt">Tarifs</span></li>
+						<li id='soins_link' class='link'><span name="lbl" caption="menusoinstxt">Soins & Marques</span></li>
+						<li id='spa_link' class='link'><span name="lbl" caption="menuspatxt">Spa</span></li>
+						<li id='contact_link' class='link'><span name="lbl" caption="menucontacttxt">Contact</span></li>
+						<li id="lang_en" class='lang'>EN</li>
+						<li id="lang_fr" class='lang'>FR</li>
+						<li id="lang_nl" class='lang'>NL</li>
 					</ul>
 				</div>
 			</div>
@@ -41,7 +41,7 @@
 				<form action="" id="newsletter_signup_form" method="post">
 			          <label for="signup_email">Email : </label>
 			          <input id="signup_email" name="signup[email]" placeholder="you@example.com" type="text"/>
-			          <input name="submit" type="submit" value="S'inscrire"/>
+			          <input id="newsletterSubmit" name="submit" type="submit" value="S'inscrire"/>
 			    </form>
 		    </div>
 		    <div id="newsletter_confirm" style='display:none'>
@@ -53,11 +53,11 @@
 																PAGE HOME
 																-->
 			<div id='page1'>
-<!-- 				<div id="slider" class="">
-						<img class='imgslider' src="img/slider/2012-05-FACEBOOK.jpg" alt="03">
+				<div id="slider" class="">
+						<a href="https://www.facebook.com/waxzone.be" target="_blank"><img class='imgslider' src="img/slider/2012-05-FACEBOOK.jpg" alt="03"></a>
 						<img class='imgslider' src="img/slider/2013-06-abonnez-vous.jpg" alt="02">
 						<img class='imgslider' src="img/slider/2013-06-adoptezregard.jpg" alt="01">
-					</div> -->
+					</div>
 			
 				<div class='interligne'>
 				</div>
@@ -1433,6 +1433,7 @@
 </body>
 <script src='js/jquery.min.js' type='text/javascript'></script>
 <script src='js/jquery.orbit.js' type='text/javascript'></script>
+<script src='js/languages.js' type='text/javascript'></script>
 <script src='js/design.js' type='text/javascript'></script>
 
 </html>

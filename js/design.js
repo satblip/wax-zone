@@ -1,5 +1,10 @@
 $(document).ready(function(e) {
 
+var lang;
+var browserLang = navigator.language || navigator.userLanguage;
+
+
+
 // Core
 var loadPage = function(a,b,c,d,e,f,g){
 	$('#page' + b +', #page' + c +', #page' + d +', #page' + e +', #page' + f +', #page' + g).hide();
@@ -44,27 +49,66 @@ function isValidEmailAddress(emailAddress) {
 
 // Newsletter
 $("#newsletter_signup_form").submit(function(e) {
-	console.log("1");
 	e.preventDefault();
 	if(!isValidEmailAddress($('#signup_email').val())) {
 		$('#signup_email').addClass('field_with_errors');
 	} else {
-		console.log("2");
+		if (lang == "fr"){
+			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+		} else if (lang == "nl"){
+			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+		} else {
+			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+		}
 		$('#signup_email').removeClass('field_with_errors');
-	    $.ajax('https://madmimi.com/signups/subscribe/96405', {
+	    $.ajax(newsletter_url, {
 		    type: 'POST',
 		    data: {"signup[email]": $('#signup_email').val()},
 		    success: function(response) {
 		        
 		    },
 		    error: function(err){
-		      	console.log(err);
 		    }
 		});
+		$('#newsletter').hide();
+  		$('#newsletter_confirm').show();
 	  
 	}
-	$('#newsletter').hide();
-  	$('#newsletter_confirm').show();
+
 });
+
+$('#lang_en').click(function(){
+	changeLanguage("en");
+	$('#lang_fr, #lang_nl').removeClass('pink');
+	$('#lang_en').addClass('pink');
+	$('#newsletterSubmit').val('Subscribe');
+	$('#signup_email').attr("placeholder", "you@example.com");
+});
+
+
+$('#lang_fr').click(function(){
+	changeLanguage("fr");
+	$('#lang_en, #lang_nl').removeClass('pink');
+	$('#lang_fr').addClass('pink');
+	$('#newsletterSubmit').val("S'inscrire");
+	$('#signup_email').attr("placeholder", "vous@exemple.com");
+});
+
+
+$('#lang_nl').click(function(){
+	changeLanguage("nl");
+	$('#lang_fr, #lang_en').removeClass('pink');
+	$('#lang_nl').addClass('pink');
+	$('#newsletterSubmit').val("Registreren");
+	$('#signup_email').attr("placeholder", "u@example.com");
+});
+
+if (browserLang == "fr" || browserLang == "en" || browserLang == "nl"){
+	lang = browserLang;
+} else {
+	lang = "en";
+}
+$('#lang_'+lang).trigger('click');
+
 
 });
