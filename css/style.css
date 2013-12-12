@@ -94,12 +94,13 @@ div .menu {
 }
 
 .submenu{
-	display: list-item;
+	
 	z-index: 1000000;
 
 }
 
 .submenu li{
+	display: list-item;
 	width: 160px;
 	padding: 15px 0 15px 10px;
 	display: list-item;

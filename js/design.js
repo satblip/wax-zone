@@ -121,7 +121,19 @@ $('#soins_link').click(function(){
 });
 
 $('#soins_link').mouseover(function(){
+	$('#submenu').show();
+});
 
+$('#submenu').mouseover(function(){
+	$('#submenu').show();
+});
+
+$('#submenu').mouseout(function(){
+	$('#submenu').hide();
+});
+
+$('#soins_link').mouseout(function(){
+	$('#submenu').hide();
 });
 
 $('#spa_link').click(function(){
@@ -137,15 +149,14 @@ $('#contact_link').click(function(){
 });
 
 $('#job2_link').click(function(){
-	loadPage();
-	_gaq.push(['_trackEvent', 'page_contact', 'load']);
-	url_rewrite("contact","root");
+	loadPage(16);
+	_gaq.push(['_trackEvent', 'page_jobs', 'load']);
+	url_rewrite("jobs","root");
 });
 
-$('#contact_link').click(function(){
-	loadPage();
-	_gaq.push(['_trackEvent', 'page_contact', 'load']);
-	url_rewrite("contact","root");
+$('.mentions').click(function(){
+	loadPage(17);
+	_gaq.push(['_trackEvent', 'page_mentions', 'load']);
 });
 
 $('#lang_en').click(function(){
