@@ -189,11 +189,199 @@ function getLanguageResources() {
     en['jobtext1'] = "<p>You want to enter the world of beauty parlors without an appointment, working in an atmosphere and pleasant surroundings.</p><p>Wax-Zone offers you the opportunity to make beauty benefits more varied, waxing, massages, facials, body treatments, spa, eyelash extensions, nail sculpting, ... and work with professional globally recognized brands: Phytomer, Yon-Ka, Opi, Professionails, Misencil ...</p><p>You are a graduate, trainee or apprentice? You are dynamic, passionate, serious, ambitious, motivated and enjoy working in a team, then join our brand and make career with our Wax-Zone institutes.</p><p>You are interested? Please send us your CV and cover letter to <strong><a href='mailto:job@wax-zone.com' style='color: #000000'>job@wax-zone.com</a></strong></p>"; 
 
 
+    /////////////////
+ 	// Phytomer
+ 	///////////////// 
 
-    // 
-    fr['default_feed'] = "Flux par défaut"; 
-    nl['default_feed'] = "Flux par défaut"; 
-    en['default_feed'] = "Default feed"; 
+    // phytotitre1
+    fr['phytotitre1'] = "Phytomer, la beauté marine !"; 
+    nl['phytotitre1'] = "Phytomer, Schoonheid uit de zee!"; 
+    en['phytotitre1'] = "Phytomer, sea-borne beauty !"; 
+
+    // phytotext1
+    fr['phytotext1'] = "<h4>Plongez dans l'univers de la beauté marine</h4><p>Phytomer, dont le nom signifie « plante de la mer », est la première marque au monde à avoir transposé les bienfaits de l’univers marin à la cosmétologie moderne. Marque marine, Phytomer oriente ses recherches selon 3 axes : la mer, les algues et les plantes de bord de mer.</p><p>Le principal actif breveté, <strong>l’Oligomer</strong>, présent dans la quasi-totalité des soins Phytomer est le seul à apporter ces 104 oligo-éléments indispensables à notre peau et à notre corps afin de les régénérer en profondeur. Le corps a besoin d’un apport extérieur en Oligomer car il n’est pas capable de le fabriquer lui-même.</p><p><strong>La cosmétique marine</strong></p><p class='textretrait'> - <strong>Des actifs 100% naturels</strong>, certifiés par le référentiel ECOCERT. Les laboratoires Phytomer garantissent ainsi une parfaite tolérance des produits et une meilleure pénétration des ingrédients actifs.<br>- <strong>Des produits testés sous contrôle dermatologique, et ophtalmologique</strong> si besoin (produits pour le contour des yeux).<br>- <strong>Aucun test sur animaux</strong>.<br>- <strong>Respect de l’environnement</strong> lors du prélèvement des matières premières et le développement durable. </p><h4>Soins visages de la marque Phytomer</h4>"; 
+    nl['phytotext1'] = "<h4>Dompel u onder in de wereld van de schoonheid uit de zee</h4><p>Phytomer betekent ‘zeeplant’. Het is het eerste merk ter wereld dat de weldaden uit de zee overbrengt naar de moderne cosmetologie. Phytomer oriënteert zijn onderzoek in drie richtingen: de zee, algen en kustplanten.</p><p>Het belangrijkste gebrevetteerde actieve bestanddeel, <strong>Oligomer</strong>, is in bijna alle Phytomer-verzorgingen aanwezig. Het is het enige dat de 104 oligo-elementen levert die nodig zijn voor de diepe regeneratie van onze huid en ons lichaam. Omdat ons lichaam Oligomer niet zelf kan aanmaken, moet het worden aangevoerd van buitenaf.</p><p><strong>Producten van de zee</strong></p><p class='textretrait'> - <strong>100 % natuurlijke bestanddelen</strong>, gecertificeerd door ECOCERT. De Phytomer-laboratoria garanderen een perfecte tolerantie van de producten en een betere inwerking van de actieve ingrediënten.<br>- <strong>Producten getest onder dermatologisch, en oftalmologisch</strong> toezicht indien nodig (producten voor de oogcontouren).<br>- <strong>Niet getest op dieren</strong>.<br>- <strong>Respect voor het milieu</strong> bij het ontginnen van de grondstoffen en duurzame ontwikkeling. </p><h4>Gelaatsverzorgingen van het merk Phytomer</h4>"; 
+    en['phytotext1'] = "<h4>Immerse yourself in a world of sea-borne beauty</h4><p>Phytomer <em>meaning plant of the sea</em> is the world-wide number one brand for transferring marine benefits to modern cosmetic science. The sea brand, Phytomer&rsquo;s research explores three areas – the sea, algae and the plants of the sea coast.</p><p>The major patented active ingredient, <strong>Oligomer</strong>, present in almost all of the Phytomer treatments, is the only one which brings all of these 104 oligoelements, essential to our skin and our body, to bring about deep regeneration. An external source of Oligomer is essential for the body because it is unable to manufacture it by itself.</p><p><strong>Marine cosmetics</strong></p><p class='textretrait'> - <strong>100% natural active ingredients</strong>, certified by ECOCERT. This means that the Phytomer laboratories can guarantee perfect tolerance of the products and better penetration of the active ingredients.<br/> - <strong>Products tested for skin sensitivity, and eye sensitivity</strong> where required (products for the eye contours).<br/> - <strong>No animal testing.<br/></strong>- <strong>Care for the environment</strong> in the collection of the raw materials and sustainable development. </p><h4>Phytomer brand facial care products</h4>";
+
+    // phytotext2
+    fr['phytotext2'] = "<p><em>Soins profonds, complets et relaxants</em></p><p>Offrir un bain d’hydratation à votre peau, défatiguer votre regard, raffermir vos traits, illuminer et oxygéner votre teint, le tout dans un moment de détente et de relaxation.</p><p>HYDRATATION – Tous types de peaux ;PURETÉ – Peaux mixtes, grasses et à problèmes ;DOUCEUR – Peaux sensibles et à rougeurs diffuses ;JEUNESSE – Peaux matures.</p><p><strong>Phytomer – 50 MIN</strong></p><p>Envie de détente et de résultat… Ce soin associe une exfoliation et un modelage du visage suivi d’un masque spécifique adapté à votre type de peau. Votre teint est reposé, illuminé et votre visage est lissé et ressourcé.</p><p><strong>Phytomer – 75 MIN</strong></p><p>Profitez d’un moment de relaxation intense en commençant par un délicieux modelage du dos suivi d’une application de boue marine active et pétillante qui libère chaleur et milliers de micro-bulles tout au long du soin. Ce soin complet conjugue l’efficacité d’un masque détoxifiant et oxygénant pour un nettoyage en profondeur et l’action d’un masque spécifique. Les applications gourmandes de sérums et de crèmes donnent des résultats visibles. Retrouvez une peau nettoyée en profondeur, reminéralisée, souple, douce et belle.</p>"; 
+    nl['phytotext2'] = "<p><em>Diepe, volledige en relaxerende verzorgingen</em></p><p>Hydrateer uw huid, haal de vermoeidheid uit uw blik, verstevig uw trekken, verlicht uw teint en voorzie haar van zuurstof, … dit alles tijdens een moment van ontspanning en relaxatie.</p><p>De formule van deze verzorging is aangepast aan uw huidtype: HYDRATATIE – Alle huidtypes;ZUIVERHEID – Gemengde, vette en probleemhuid;ZACHTHEID – Gevoelige huid met rode vlekken;JEUGD – Rijpere huid</p><p><strong>Phytomer – 50 MIN<br/></strong></p><p>U hebt zin in een moment van ontspanning en wil meteen resultaat zien … Deze verzorging combineert een peeling en een gelaatsmodelling, gevolgd door een masker dat speciaal is aangepast aan uw huidtype. Uw teint is rustig en lichter, uw gezicht glad en herbrond.</p><p><strong>Phytomer – 75 MIN<br/></strong></p><p>Geniet van een moment van intense ontspanning. Het begint met een heerlijke modelling van de rug, gevolgd door een pakking met actief en sprankelend zeeslib dat tijdens de hele verzorging warmte en duizenden microbelletjes afgeeft. Deze volledige verzorging combineert de efficiëntie van een ontgiftend en oxygenerend masker voor een grondige reiniging en de werking van een speciaal masker. Gulle serums en crèmes geven merkbaar resultaat. Uw huid wordt grondig gereinigd en geremineraliseerd en wordt weer soepel, zacht en mooi.</p>"; 
+    en['phytotext2'] = "<p><em>Deep, complete and relaxing treatments</em></p><p>Your skin enjoys a moisturising bath, tired eyes are rejuvenated, features firmed, your skin tone is lightened and oxygenated, while you relax and unwind.</p><p>The formulae for these treatments will be adjusted to suit your skin type: MOISTURISING – All skin types;PURITY – Combination, oily and problem skins;GENTLE – Sensitive skins with reddish areas;YOUTH – Mature skins.</p><p><strong>Phytomer – 50 mins<br/></strong>A need for relaxation and results… This treatment blends exfoliation and a facial massage followed by a specific mask adapted to your skin type. Your complexion is left serene and glowing and your face is smoothed and nourished.</p><p><strong>Phytomer – 75 mins<br/></strong>Enjoy a moment of intense relaxation starting with a delightful back massage followed by an application of activated, sparkling sea mud which releases heat and thousands of tiny bubbles throughout the treatment. The full treatment blends the effectiveness of a detoxifying and oxygenating mask with deep cleansing and the actions of a specific mask. Sensuous applications of serums and creams yield results you can see. Rediscover your deep-cleansed, re-mineralised, supple, soft and beautiful skin.</p>";
+
+
+    /////////////////
+ 	// yonka
+ 	///////////////// 
+    
+    // yonkatitre1
+    fr['yonkatitre1'] = "Yon-Ka, le voyage au pays des senteurs et du bien être"; 
+    nl['yonkatitre1'] = "Yon-Ka, een reis naar het land van geuren en welzijn"; 
+    en['yonkatitre1'] = "Yon-Ka, a journey to the land of fragrance and wellness"; 
+    
+    // yonkatext1
+    fr['yonkatext1'] = "<p><em>Voyagez au pays des senteurs et du bien-être</em></p><p>Spécialiste et pionnier de l’aromathérapie et de la phytothérapie esthétiques. Yon-Ka, dont les deux syllabes expriment le symbole de l’harmonie retrouvée, apporte à votre peau ce que la plante a de plus précieux : son huile essentielle vitalisante et chargée d’énergie solaire.</p><p>L’objectif de Yon-Ka étant d’offrir à votre peau les moyens de conserver ou de retrouver son équilibre, son énergie et sa beauté.</p><p><u><i>La Phytobiointégrée</i></u></p><p>Pour que la peau bénéficie de toutes les ressources du monde végétal, Yon-Ka utilise la partie aromatique de la plante, son huile essentielle mais aussi tous les actifs contenus dans les extraits végétaux et marins : vitamines, oligo-éléments, acides de fruits,…</p><p><u><i>Les huiles essentielles Yon-ka</i></u></p><p>Lavande, Géranium, Thym, Cyprès et Romarin sont les 5 huiles essentielles de base de Yon-KA. Utilisées plus ou moins concentrées, seules ou associées à d’autres huiles essentielles ou à d’autres extraits végétaux.</p><p><u><i>Le soin sur mesure et personnalisé</i></u></p><p>La qualité du soin sur mesure et personnalisé de Yon-ka résulte de la connaissance parfaite de la peau, l’analyse précise de ses besoins, la maîtrise des produits et des gestes d’application.</p>"; 
+    nl['yonkatext1'] = "<p><em>Reis naar het land van geuren en welzijn</em></p><p>Specialist en pionier van de esthetische aromatherapie en fytotherapie. Yon-Ka,Yon-Ka, <em>twee lettergrepen die symbool staan voor hernieuwde harmonie, </em>geeft uw huid het kostbaarste bezit van de plant: zijn opwekkende essentiële olie boordevol zonne-energie.</p><p>Yon-Ka stelt zich tot doel uw huid de middelen te geven om haar evenwicht, energie en schoonheid te bewaren of terug te vinden.</p><p><em><u>De Bio Phyto-peeling</u></em></p><p>Opdat uw huid haar voordeel zou kunnen doen met alle middelen van de plantenwereld, gebruikt Yon-Ka het aromatische gedeelte van de plant, haar essentiële olie maar ook alle actieve bestanddelen in de planten- en zee-extracten: vitaminen, oligo-elementen, fruitzuren,…</p><p><em><u>De essentiële oliën van Yon-Ka</u></em></p><p>Lavendel, geranium, tijm, cipres en rozemarijn zijn de 5 essentiële basisoliën van Yon-Ka. Ze worden gebruikt in grotere en kleinere concentraties, alleen of in combinatie met andere essentiële oliën of andere plantenextracten.</p><p><em><u>Gepersonaliseerde verzorging op maat</u></em></p><p>De kwaliteit van de gepersonaliseerde verzorgingen van Yon-Ka steunt op de perfecte kennis van de huid, de nauwkeurige analyse van haar behoeften, de beheersing van de producten en van de schoonheidshandelingen.</p>"; 
+    en['yonkatext1'] = "<p><em>Travel to the land of fragrance and wellness</em></p><p>Specialists and pioneers in aromatherapy and plant therapy, Yon-Ka – the two syllables express the symbol of harmony restored – brings to your skin the most precious possession of the plant world, their revitalising essential oils, charged with the energy of the sun.</p><p>Yon-Ka are dedicated to offering your skin the means of retaining or rediscovering its balance, its energy and its beauty.</p><p><em><u>Organics incorporated</u></em></p><p>In order to ensure that your skin benefits from all the resources of the plant world, Yon-Ka make use of the aromatic part of the plant, its essential oil, but they also include all the active ingredients contained in vegetable and marine extracts – vitamins, oligoelements, fruit acids and much more.</p><p><em><u>The essential Yon-ka oils</u></em></p><p>Lavender, Geranium, Thyme, Cypress and Rosemary are the 5 essential basic Yon-Ka oils. They are used in varying degrees of concentration, alone or in combination with other essential oils or other vegetable extracts.</p><p><em><u>Individually prepared and personalised treatments</u></em></p><p>The quality of Yon-Ka made-to-measure and personalised treatments are the result of a perfect understanding of the skin, a precise analysis of its needs, and mastery of the products and application methods.</p>"; 
+    
+    // yonkatitre2
+    fr['yonkatitre2'] = "Soins visages de la marque Yon-ka"; 
+    nl['yonkatitre2'] = "Gelaatsverzorgingen van het merk Yon-Ka"; 
+    en['yonkatitre2'] = "Yon-Ka brand facial treatments"; 
+    
+    // yonkatext2
+    fr['yonkatext2'] = "<p><strong>Escale beauté</strong> - 30 min<br><i>la pause beauté</i></p><p>Une pause bien-être pour vitaminer votre peau, faire le plein d’énergie et retrouver rapidement une mine reposée.</p><p><strong>Le grand classique</strong> - 75 min<br><i>Soin profond, traitant et relaxant</i></p><p>Pour une peau nette, un teint lumineux, 5 phases de nettoyage progressif se succèdent dans la plus grande douceur.</p>"; 
+    nl['yonkatext2'] = "<p><strong>Schoonheidspauze </strong><em>- </em>30 min<br/><em>De schoonheidspauze</em></p><p>Een wellnesspauze om uw huid haar vitaminen te geven, nieuwe energie op te doen en er snel weer goed en uitgerust uit te zien</p><p><strong>De grote klassieker </strong>– 75 min<br/><em>Diepe, behandelende en relaxerende verzorging</em></p><p>Voor een gave huid en een lichte teint, 5 opeenvolgende schoonheidsstappen in alle zachtheid.</p>"; 
+    en['yonkatext2'] = "<p><strong>Beauty stopover </strong><em>- </em>30 mins<br/><em>The beauty break</em></p><p>A wellness break to re-vitaminise your skin, recharge its energy sources and swiftly re-discover the look of relaxation.</p><p><strong>The classic</strong> – 75 mins<br/><em>In-depth treatment, curative and relaxing</em></p><p>For pure skin that glows with health, 5 progressive cleansing steps are gently performed.</p>"; 
+    
+    // yonkatext3
+    fr['yonkatext3'] = "<p><strong>Optimizer</strong> - 60 min<br><i>Soin tenseur raffermissant</i></p><p>Ce soin agit comme un véritable « coach » cutané. En stimulant les processus de reconstruction naturelle de la peau, il optimise sa fermeté, estompe les rides et ridules et intensifie son éclat.</p><p><strong>Alpha Vital</strong> - 60 min<br><i>Soin rénovateur éclat aux acides de fruits</i></p><p>Sous l’action rénovatrice et hydratante des acides de fruits contrôlés, les rides et ridules s’estompent, le teint s’éclaircit, la peau devient plus lisse, plus lumineuse et visiblement rajeunie.</p>";
+    nl['yonkatext3'] = "<p><strong>Optimizer </strong>- 60 min<br><em>Verstevigende verzorging</em></p><p>Deze verzorging werkt als een echte &lsquo;coach&rsquo;voor uw huid. Door de natuurlijke reconstructieprocessen te stimuleren, optimaliseert ze de stevigheid van de huid, doet ze lijntjes en rimpels vervagen en zorgt ze voor een stralende teint.</p><p><strong>Alpha Vital</strong> – 60 min<br/><em>Renoverende, stralende verzorging met fruitzuren</em></p><p>Onder de renoverende en hydraterende inwerking van gecontroleerde fruitzuren worden lijntjes en rimpels vager, de teint stralender en de huid gladder, lichter en zichtbaar jonger.</p>"; 
+    en['yonkatext3'] = "<p><strong>Optimiser </strong>- 60 mins<br/><em>Tensing and firming care</em></p><p>This treatment is like a personal trainer for your skin. By stimulating the natural rebuilding processes of your skin, it optimises firmness, smoothes wrinkles and fine lines, and makes your skin glow.</p><strong>Alpha Vital</strong> – 60 mins<br/><em>Glow rejuvenating treatment with fruit acids</em></p><p>Under the renewing and moisturising action of controlled fruit acids, wrinkles and fine lines are smoothed, your complexion brightens, the skin becomes smoother, more radiant and noticeably younger.</p>"; 
+    
+    // yonkatext4
+    fr['yonkatext4'] = "<p><strong>Hydralessence</strong> - 50 min<br><i>Soin d’hydratation intense</i></p><p>Hydratée par les extraits d’algues et de fruits, baignée par une très fine vapeur aromatique, votre peau redevient souple, douce et belle, les rides et ridules s’atténuent.</p><p><strong>Vital Défense</strong> - 60 min<br><i>Soin prévention anti-âge, anti-oxydant, anti-pollution</i></p><p>Soin conseillé aux peaux jeunes (25 – 35 ans) pour lutter contre le vieillissement induit par les agressions extérieures et à toutes peaux ternes, brouillées, qui manquent de vitalité.</p><p><strong>Business Men Express</strong> - 30 min<br><i>La pause beauté exclusivement réservée aux hommes</i></p><p>Entre deux rendez-vous, cette pause bien-être vous permet de faire le plein d’énergie tout en retrouvant une mine reposée.</p>"; 
+    nl['yonkatext4'] = "<p><strong>Hydralessence</strong> - 50 min<br><i>Intense hydraterende verzorging</i></p><p>Gehydrateerd door algen en fruitextracten en een zeer fijne aromatische nevel, wordt uw huid weer soepel, zacht en mooi en vervagen lijntjes en rimpels</p><p><strong>Vital Défense</strong> - 60 min<br><i>Preventieve anti-ageing, antioxiderende en anti-vervuilingsverzorging</i></p><p>Aanbevolen verzorging voor de jonge huid (25 – 30 jaar) om veroudering door externe agressies tegen te gaan en voor elke doffe, verstoorde huid met gebrek aan vitaliteit.</p><p><strong>Business Men Express</strong> - 30 min<br><i>De schoonheidspauze alleen voor mannen</i></p><p>Tussen twee afspraken in kunt u tijdens deze wellnesspauze weer volop energie opdoen en er weer uitgerust uitzien.</p>"; 
+    en['yonkatext4'] = "<p><strong>Hydralessence </strong>- 50 mins<br/><em>Intense moisturising treatment</em></p><p>Moisturised by fruit and algae extracts, bathed by a fine aromatic vapour, your skin becomes supple, soft and beautiful, wrinkles and fine lines fade.</p><p><strong>Vital Defence</strong> – 60 mins<br/><em>Anti-aging, anti-oxidant, anti-pollution preventive care</em></p><p>Treatment recommended for young skins (aged 25 – 35) to combat aging caused by harmful external factors and for all dull, blotchy skins lacking in vitality.</p><p><strong>Businessman&rsquo;s Express</strong> – 30 mins<br/><em>The beauty break just for men</em></p><p>Between two meetings, this wellness break will send you back full of energy and looking relaxed.</p>"; 
+    
+    // yonkatext5
+    fr['yonkatext5'] = "<p><strong>Business Men</strong> - 60 min<br><i>Soin profond, traitant et relaxant exclusivement destiné aux hommes</i></p><p>Grâce à ce soin personnalisé et complet, vous retrouvez une peau nette, parfaitement équilibrée et un teint lumineux.</p><p><strong>Eclat contour</strong> - 30 min<br><i>Soins contour des yeux</i></p><p>Ce soin conjugue actifs de plantes et techniques spécifiques pour lisser rides et ridules, tonifier les paupières et atténuer les marques de fatigue.</p><p><strong>Tâches brunes superficielles</strong> - 60 min<br><i>La pause beauté exclusivement réservée aux hommes</i></p><p>En favorisant les processus de régénération de l’épiderme, ce soin expert contribue à l’éclaircissement des taches pigmentaires superficielles.</p><p><strong>Vital- Élastine</strong> - 75 min<br><i>Soin anti-rides lissant, restructurant</i></p><p>Le traitement expert anti-âge. Une action ciblée sur les rides, l’éclat du teint, l’hydratation et la nutrition.</p>"; 
+    nl['yonkatext5'] = "<p><strong>Business Men</strong> - 60 min<br><i>Diepe, behandelende en relaxerende verzorging alleen voor mannen</i></p><p>Dankzij deze gepersonaliseerde en volledige verzorging wordt uw huid weer gaaf en perfect in evenwicht en krijgt u een stralende teint.</p><p><strong>Oogcontouren</strong> - 30 min<br><i>Verzorging voor de oogcontouren</i></p><p>Deze verzorging combineert de actieve bestanddelen van planten met speciale technieken om rimpels en lijntjes glad te strijken, de oogleden te verkwikken en alle sporen van vermoeidheid te verzachten.</p><p><strong>Pigmentvlekkenverzorging</strong> - 60 min<br><i>Oppervlakkige bruine vlekken</i></p><p>Deze deskundige verzorging stimuleert het herstel van de opperhuid en helpt zo om oppervlakkige pigmentvlekken te verhelderen.</p><p><strong>Vital- Élastine</strong> - 75 min<br><i>Herstellende en gladmakende antirimpelverzorging</i></p><p>Werkt in op de rimpels, laat uw huid opnieuw stralen, hydrateert en voedt de huid.</p>"; 
+    en['yonkatext5'] = "<p><strong>Businessmen</strong> – 60 mins<br/><em>Deep, curative and relaxing treatment just for men</em></p><p>Thanks to this personalised, complete treatment, your skin will be perfectly cleansed, and recover its perfect balance and radiance.</p><p><strong>Contour glow </strong>- 30 mins<br/><em>Eye contour treatment</em></p><p>This treatment blends active plant ingredients and special techniques to smooth wrinkles and crows feet, tone the eyelids and eliminate the signs of fatigue.</p><p><strong>Pigmentation clarifying facial </strong>- 60 mins<br/><em>Superficial pigmentation spots</em></p><p>Promoting the regenerating process of the epidermis, this expert care lightens superficial skin imperfection spots.</p><p><strong>Vital- Élastine </strong>- 75 mins<br/><em>Smoothing anti-wrinkle treatment, restructuring</em></p><p>The expert anti-age treatment. Action targeting wrinkles, a radiant complexion, hydration and nutrition.</p>"; 
+
+
+    /////////////////
+ 	// OPI
+ 	///////////////// 
+    
+    // opititre1
+    fr['opititre1'] = "O.P.I - Leader mondial pour les soins des mains et ongles"; 
+    nl['opititre1'] = "O.P.I - Wereldleider voor hand en nagelverzorging"; 
+    en['opititre1'] = "O.P.I - World leader for all hand and nail treatments"; 
+    
+    // opitext1
+    fr['opitext1'] = "<p>OPI est un vernis à ongles utilisé par beaucoup de stars qui offre une gamme de plus de 200 vernis différents. Pour tout les goûts et styles…</p><p>Sa réputation est bâtie sur son engagement envers la qualité, la sécurité, l’innovation et l’excellence – un engagement qu’il honore chaque jour dans chaque produit.</p>"; 
+    nl['opitext1'] = "<p>Heel wat sterren gebruiken de OPI-nagellak. Het gamma telt meer dan 200 verschillende soorten. Voor ieders smaak en stijl dus …</p><p>Zijn reputatie steunt op zijn engagement voor kwaliteit, veiligheid, innovatie en uitmuntendheid – een engagement dat iedere dag wordt gerespecteerd in elk product.</p>"; 
+    en['opitext1'] = "<p>OPI nail varnish is popular with many celebs and boasts a range of over 200 varnishes. For all tastes and styles…</p><p>OPI’s reputation is built on a commitment to quality, safety, innovation and excellence – a commitment they honour every day in every product.</p>";  
+
+
+    /////////////////
+ 	// massage
+ 	///////////////// 
+
+    // massagetitre1
+    fr['massagetitre1'] = "Soins et Massages Corps"; 
+    nl['massagetitre1'] = "Lichaamsverzorgingen en massages"; 
+    en['massagetitre1'] = "Body treatments and massages"; 
+
+    // massagetext1
+    fr['massagetext1'] = "<p><strong>Gommage</strong> - 30 min - <i>Faites peau neuve !</i></p><p>Nettoyée et oxygénée en profondeur grâce à un gommage corps aux cristaux de sels marins, votre peau, lumineuse, retrouve un toucher délicat. Un modelage relaxant et hydratant qui permet de relancer la circulation sanguine, redonner vitalité et éclat à votre corps.</p><p><strong>Massage Dos</strong> - 55 min</p><p>Ce massage relaxant ou vitalisant à base d’huiles précieuses délicatement aromatiques libère votre corps de ses tensions et le recharge d’une énergie nouvelle.</p><p><strong>Contour Drainant</strong> - 40 min - <i>Soin amincissant anti-eau.</i></p><p>Cet enveloppement drainant aux extraits de lierre et huiles essentielles s’accompagne de techniques spécifiques Yon-Ka pour remodeler votre silhouette.<br>Actuellement disponible chez Wax-Zone Bascule, Etterbeek, Stockel & Waterloo</p><p><strong>Jambes Toniques</strong> - 30 min - <i>Soin anti-fatigue.</i></p><p>Lierre grimpant, huiles essentielles, modelage drainant … des alliés de choix pour alléger vos jambes fatiguées.<br>Actuellement disponible chez Wax-Zone Bascule, Etterbeek, Stockel & Waterloo</p><p><strong>Phyto-Fermeté</strong> - 60 min - <i>Soin raffermissant liftant.</i></p><p>A la fois préventif et traitant, ce soin raffermissant phyto-aromatique renforce l’élasticité des tissus à toutes les étapes de la vie.<br>Actuellement disponible chez Wax-Zone Bascule, Etterbeek, Stockel & Waterloo</p><p><strong>Flash Soleil</strong> - 40 min</p><p>Nettoyée et oxygénée en profondeur grâce à un gommage corps marin, votre peau, lumineuse, retrouve un toucher délicat. Suivi par un modelage autobronzant qui laisse votre peau délicatement hâlée et hydratée.</p><p><strong>Sculpteur Intégral</strong> - 60 min - <i>Soin minceur ventre, fesses & cuisses.</i></p><p>Ce soin affine la silhouette et lisse la cellulite.<br>La combinaison de l’argile Thermo-Réductrice « brûleuse de graisses » et de modelages intensifs ciblés offre le summum de l’efficacité minceur.<br>Actuellement disponible chez Wax-Zone Bascule & Stockel</p>"; 
+    nl['massagetext1'] = "<p><strong>Peeling </strong>- 30 min - <em>Voor een vernieuwde huid!<br/></em>Diep gereinigd en voorzien van de nodige zuurstof dankzij een lichaamspeeling met zeezoutkristallen, oogt uw huid weer lichter en voelt ze weer zacht aan. Een relaxerende en hydraterende modelling om de bloedsomloop weer op gang te brengen en uw lichaam de nodige vitaliteit te geven.</p><p><strong>Rugmassage </strong>- 20 min<br/> Relaxerende of dynamiserende aromatische massage op basis van essentiële oliën.</p><p><strong>Lichaamsmassage </strong>- 55 min<br/> Deze relaxerende of vitaliserende massage op basis van kostbare oliën met een delicaat aroma bevrijdt uw lichaam van alle spanningen en geeft het weer nieuwe energie.</p><p><strong>Drainerende massage </strong>- 40 min - <em>Afslankingsverzorging tegen waterophouding.<br/></em>De drainerende pakking met klimopextracten en essentiële oliën, wordt gecombineerd met speciale Yon-Ka-technieken om uw figuur te verfijnen.</p><p><em>Nu beschikbaar bij Wax-Zone Bascule, Etterbeek, Stokkel &amp;Waterloo</em></p><p><strong>Verlichte benen </strong>- 30 min - <em>Verzorging tegen vermoeidheid.<br/></em>Klimop, essentiële oliën, drainerende modelling, … kostbare bondgenoten om vermoeide benen te verlichten.</p><p><em>Nu beschikbaar bij Wax-Zone Bascule, Etterbeek, Stokkel &amp;Waterloo</em></p><p><strong>Phyto-Stevigheid </strong>- 60 min - <em>Liftende en versterkende verzorging.<br/></em>Preventief en behandelend, versterkt deze verstevigende fyto-aromatische verzorging de elasticiteit van de weefsels in elke fase van het leven.</p><p><em>Nu beschikbaar bij Wax-Zone Bascule, Etterbeek, Stokkel &amp;Waterloo</em></p><p><strong>Zonneflash </strong>– 40 min<br/> Diep gereinigd en voorzien van de nodige zuurstof dankzij een lichaamspeeling met zeeproducten, oogt uw huid weer stralender en voelt ze weer zacht aan. Gevolgd door een zelfbruinende modelling die uw huid een lichtbruine teint geeft en hydrateert.</p><p><strong>Sculpteur Intégral </strong>- 60 min -Afslankende verzorging voor buik, billen en dijen<br/> Deze verzorging verfijnt het figuur en doet cellulitis verdwijnen.<br/> De combinatie van « vetverbrandende » thermo-reducerende klei en gerichte intensieve modellering om optimaal en doeltreffend af te slanken.</p><p><em>Nu beschikbaar bij Wax-Zone Bascule &amp;Stokkel</em></p>"; 
+    en['massagetext1'] = "<p><strong>Scrub </strong>- 30 mins - <em>Renew your skin!<br/></em>After this deep cleansing and oxygenation, thanks to a sea salt crystal scrub, your glowing skin recovers its silky feel. This is a relaxing and moisturising treatment which re-energises the circulation of the blood, restoring vitality and radiance to your body.</p><p><strong>Back Massage </strong>- 20 mins<br/> A relaxing or energising massage based on essential oils.</p><p><strong>Body Massage </strong>- 55 mins<br/> This relaxing or energising massage based on precious, delicately aromatic oils releases all the tensions in your body and replenishes it with fresh energy.</p><p><strong>Contour reducer </strong>- 40 mins - <em>Anti-fluid slimming treatment<br/></em>This wrap-around slimming treatment with extracts of ivy and essential oils is combined with special Yon-Ka techniques to reshape your silhouette.<br/><em>Now available at Wax-Zone Bascule, Etterbeek, Stockel and Waterloo</em></p><p><strong>Leg toner </strong>- 30 mins - <em>Anti-fatigue treatment<br/></em>Climbing ivy, essential oils, drainage massage … the allies of choice to ease your tired legs.</p><p><em>Now available at Wax-Zone Bascule, Etterbeek, Stockel &amp;Waterloo</em></p><p><strong>Plant firmness </strong>- 60 mins - <em>Firming and lifting treatment<br/></em>Both preventive and curative, this plant aromatic firming treatment strengthens tissue elasticity at all stages of life.</p><p><em>Now available at Wax-Zone Bascule, Etterbeek, Stockel &amp;Waterloo</em></p><p><strong>Sun Flash </strong> – 40 mins<br/> After this deep cleansing and oxygenation thanks to a marine body scrub, your skin, now glowing, regains its delicate sensitivity. Followed by a self-tanning application which leaves your skin delicately bronzed and moisturised.</p><p><strong>Essential Sculpting Care </strong>- 60 mins – <em>Stomach, buttocks &amp;thighs slimming treatment</em></p><p>This treatment gives you a slimmer figure and smoothes cellulite.<br/> The combination of &ldquo;fat burning&rdquo;Thermo-Reducing clay and targeted deep massages is the ultimate in effective slimming.<br/> Treatment available only at Wax-Zone Bascule and Stockel</p>"; 
+
+
+    /////////////////
+ 	// colzone
+ 	/////////////////
+
+    // colorzonetext1
+    fr['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – VERNIS SEMI-PERMANENT – DISPONIBLE DANS TOUS NOS INSTITUTS</strong></p><p class='aligncenter'>Tient 14 jours sans écailler<br>Brillance<br>Aucun polissage, aucun ponçage, aucun limage<br>Résultat fin super naturel !</p><p class='aligncenter'>Aucun temps d’attente après la pose</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>TARIFS<p></th><th><p style='text-align:left'>ABBONNES<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    nl['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE</strong></p><p class='aligncenter'>Houdt 14 dagen zonder beschadiging<br>Blijvende hoogglans<br>Niet buffen, niet vijlen, niet frezen<br>Zo dun en natuurlijk !</p><p class='aligncenter'>Geen droogtijd na applicatie</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>PRIJS<p></th><th><p style='text-align:left'>ABBONNEES<p></th><th><p style='text-align:left'>PUBLIEK<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    en['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – NEXT GENERATION NAIL POLISH</strong></p><p class='aligncenter'>14 day wear without chipping<br>Everlasting shine<br>No buffing, no filing, no drilling<br>So naturally thin !</p><p class='aligncenter'>No post-service dry time</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>PRICES<p></th><th><p style='text-align:left'>MEMBERS<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>APPLICATION - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>REMOVAL - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+
+
+    /////////////////
+ 	// pupa
+ 	/////////////////
+
+    // pupatitre1
+    fr['pupatitre1'] = "Pupa Milano, un maquillage parfait, glamour et impeccable !"; 
+    nl['pupatitre1'] = "Pupa Milano, een perfecte glamoureuze en onberispelijke make-up!"; 
+    en['pupatitre1'] = "Pupa Milano, perfect makeup, glamorous and flawless!"; 
+
+    // pupatext1
+    fr['pupatext1'] = "<p>La marque, <i>d’origine italienne></i>, qui est déjà très tendance dans de nombreux pays et qui fait fureur en Italie !</p><p>La marque de maquillage PUPA Milano, est en mesure de satisfaire toutes les exigences de beauté: l’excellent et unique rapport qualité/prix, l’accessibilité à tous, la qualité garantie, les tendances couleur les plus glamour, l’innovation, le design, …</p><p>La femme PUPA Milano sait choisir, elle est passionnée, elle sait ce qu’elle veut, elle veut se sentir belle chaque jour, être libre et fidèle à la fois.</p>"; 
+    nl['pupatext1'] = "<p>Het merk van <em>Italiaanse</em> origine is al in heel wat landen supertrendy en maakt furore in Italië!</p><p>Het make-upmerk PUPA Milano voldoet aan al uw schoonheidsvereisten: een uitstekende en unieke prijs/kwaliteitverhouding binnen ieders bereik, gegarandeerde kwaliteit, de meest glamoureuze kleurentrends, innovatie, design, …</p><p>De PUPA Milano-vrouw weet wat ze moet kiezen. Ze is gepassioneerd, weet precies wat ze wil, wil zich elke dag mooi voelen, ze wil vrij zijn en trouw tegelijkertijd.</p>"; 
+    en['pupatext1'] = "<p>This Italian brand is already very popular in a number of countries and is the absolute rage in Italy!</p><p>The PUPA Milano makeup brand can satisfy all beauty requirements: the excellent and unique value for money, universal accessibility, the quality guarantee, the most glamorous colour trends, plus glamour, innovation, design, everything.</p><p>The PUPA Milano woman knows how to choose, she is passionate, she knows what she wants, and she wants to feel beautiful every day, to be free and faithful at the same time.</p>"; 
+
+
+    /////////////////
+ 	// nova
+ 	/////////////////
+
+    // novatitre1
+    fr['novatitre1'] = "Flux par défaut"; 
+    nl['novatitre1'] = "Flux par défaut"; 
+    en['novatitre1'] = "Default feed"; 
+
+    // novatext1
+    fr['novatext1'] = "Flux par défaut"; 
+    nl['novatext1'] = "Flux par défaut"; 
+    en['novatext1'] = "Default feed"; 
+
+    // novatext2
+    fr['novatext2'] = "Flux par défaut"; 
+    nl['novatext2'] = "Flux par défaut"; 
+    en['novatext2'] = "Default feed"; 
+    
+    // novatext3
+    fr['novatext3'] = "Flux par défaut"; 
+    nl['novatext3'] = "Flux par défaut"; 
+    en['novatext3'] = "Default feed"; 
+
+
+    /////////////////
+ 	// equavie
+ 	/////////////////
+
+    // equatitre1
+    fr['equatitre1'] = "Flux par défaut"; 
+    nl['equatitre1'] = "Flux par défaut"; 
+    en['equatitre1'] = "Default feed"; 
+
+    // equatext1
+    fr['equatext1'] = "Flux par défaut"; 
+    nl['equatext1'] = "Flux par défaut"; 
+    en['equatext1'] = "Default feed"; 
+
+
+
+
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
+    // phytotitre1
+    fr['phytotitre1'] = "Flux par défaut"; 
+    nl['phytotitre1'] = "Flux par défaut"; 
+    en['phytotitre1'] = "Default feed"; 
+
     var resources = new Array();
     resources['fr'] = fr;
     resources['en'] = en;

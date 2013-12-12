@@ -136,7 +136,7 @@ $('#soins_link').mouseout(function(){
 	$('#submenu').hide();
 });
 
-$('#spa_link').click(function(){
+$('#spa_link, #spa2_link').click(function(){
 	loadPage(6);
 	_gaq.push(['_trackEvent', 'page_spa', 'load']);
 	url_rewrite("spa","root");
