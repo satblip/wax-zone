@@ -148,6 +148,54 @@ $('#contact_link').click(function(){
 	url_rewrite("contact","root");
 });
 
+$('#phyto2_link, #phyto_link').click(function(){
+	loadPage(8);
+	_gaq.push(['_trackEvent', 'page_phytomer', 'load']);
+	url_rewrite("phytomer","root");
+});
+
+$('#yonka2_link, #yonka_link').click(function(){
+	loadPage(9);
+	_gaq.push(['_trackEvent', 'page_yonka', 'load']);
+	url_rewrite("yonka","root");
+});
+
+$('#opi_link').click(function(){
+	loadPage(10);
+	_gaq.push(['_trackEvent', 'page_opi', 'load']);
+	url_rewrite("opi","root");
+});
+
+$('#soinscorps_link').click(function(){
+	loadPage(11);
+	_gaq.push(['_trackEvent', 'page_soins_corps', 'load']);
+	url_rewrite("soins_corps","root");
+});
+
+$('#color_link').click(function(){
+	loadPage(12);
+	_gaq.push(['_trackEvent', 'page_color', 'load']);
+	url_rewrite("color","root");
+});
+
+$('#pupa2_link, #pupa_link').click(function(){
+	loadPage(13);
+	_gaq.push(['_trackEvent', 'page_pupa', 'load']);
+	url_rewrite("pupa","root");
+});
+
+$('#nova2_link, #nova_link').click(function(){
+	loadPage(14);
+	_gaq.push(['_trackEvent', 'page_novaskin', 'load']);
+	url_rewrite("novaskin","root");
+});
+
+$('#equa2_link, #equa_link').click(function(){
+	loadPage(15);
+	_gaq.push(['_trackEvent', 'page_equavie', 'load']);
+	url_rewrite("equavie","root");
+});
+
 $('#job2_link').click(function(){
 	loadPage(16);
 	_gaq.push(['_trackEvent', 'page_jobs', 'load']);
