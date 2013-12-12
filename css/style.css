@@ -317,6 +317,18 @@ h4 {
 	padding-left: 20px;
 }
 
+.misenl{
+	width: 250px;
+	display: inline-block;
+}
+
+.misenr{
+	width: 600px;
+	display: inline-block;
+	position: absolute;
+	top;
+}
+
 
 /*CSS POUR LES PAGE CONTACT*/
 
