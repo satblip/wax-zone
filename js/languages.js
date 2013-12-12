@@ -1,3 +1,12 @@
+/*!
+ * hoverIntent r7 // 2013.03.11 // jQuery 1.9.1+
+ * http://cherne.net/brian/resources/jquery.hoverIntent.html
+ *
+ * You may use hoverIntent under the terms of the MIT license.
+ * Copyright 2007, 2013 Brian Cherne
+ */
+(function(e){e.fn.hoverIntent=function(t,n,r){var i={interval:100,sensitivity:7,timeout:0};if(typeof t==="object"){i=e.extend(i,t)}else if(e.isFunction(n)){i=e.extend(i,{over:t,out:n,selector:r})}else{i=e.extend(i,{over:t,out:t,selector:n})}var s,o,u,a;var f=function(e){s=e.pageX;o=e.pageY};var l=function(t,n){n.hoverIntent_t=clearTimeout(n.hoverIntent_t);if(Math.abs(u-s)+Math.abs(a-o)<i.sensitivity){e(n).off("mousemove.hoverIntent",f);n.hoverIntent_s=1;return i.over.apply(n,[t])}else{u=s;a=o;n.hoverIntent_t=setTimeout(function(){l(t,n)},i.interval)}};var c=function(e,t){t.hoverIntent_t=clearTimeout(t.hoverIntent_t);t.hoverIntent_s=0;return i.out.apply(t,[e])};var h=function(t){var n=jQuery.extend({},t);var r=this;if(r.hoverIntent_t){r.hoverIntent_t=clearTimeout(r.hoverIntent_t)}if(t.type=="mouseenter"){u=n.pageX;a=n.pageY;e(r).on("mousemove.hoverIntent",f);if(r.hoverIntent_s!=1){r.hoverIntent_t=setTimeout(function(){l(n,r)},i.interval)}}else{e(r).off("mousemove.hoverIntent",f);if(r.hoverIntent_s==1){r.hoverIntent_t=setTimeout(function(){c(n,r)},i.timeout)}}};return this.on({"mouseenter.hoverIntent":h,"mouseleave.hoverIntent":h},i.selector)}})(jQuery)
+
 function getLanguageResources() {
     var fr = new Array(); 
     var nl = new Array();
@@ -284,9 +293,9 @@ function getLanguageResources() {
  	/////////////////
 
     // colorzonetext1
-    fr['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – VERNIS SEMI-PERMANENT – DISPONIBLE DANS TOUS NOS INSTITUTS</strong></p><p class='aligncenter'>Tient 14 jours sans écailler<br>Brillance<br>Aucun polissage, aucun ponçage, aucun limage<br>Résultat fin super naturel !</p><p class='aligncenter'>Aucun temps d’attente après la pose</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>TARIFS<p></th><th><p style='text-align:left'>ABBONNES<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
-    nl['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE</strong></p><p class='aligncenter'>Houdt 14 dagen zonder beschadiging<br>Blijvende hoogglans<br>Niet buffen, niet vijlen, niet frezen<br>Zo dun en natuurlijk !</p><p class='aligncenter'>Geen droogtijd na applicatie</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>PRIJS<p></th><th><p style='text-align:left'>ABBONNEES<p></th><th><p style='text-align:left'>PUBLIEK<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
-    en['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – NEXT GENERATION NAIL POLISH</strong></p><p class='aligncenter'>14 day wear without chipping<br>Everlasting shine<br>No buffing, no filing, no drilling<br>So naturally thin !</p><p class='aligncenter'>No post-service dry time</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>PRICES<p></th><th><p style='text-align:left'>MEMBERS<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>APPLICATION - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>REMOVAL - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    fr['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – VERNIS SEMI-PERMANENT – DISPONIBLE DANS TOUS NOS INSTITUTS</strong></p><p class='aligncenter'>Tient 14 jours sans écailler<br>Brillance<br>Aucun polissage, aucun ponçage, aucun limage<br>Résultat fin super naturel !</p><p class='aligncenter'>Aucun temps d’attente après la pose</p><table width='453' border='0' cellspacing='0' cellpadding='5' align='center'><tr><th><p style='text-align:left'>TARIFS<p></th><th><p style='text-align:left'>ABBONNES<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    nl['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE</strong></p><p class='aligncenter'>Houdt 14 dagen zonder beschadiging<br>Blijvende hoogglans<br>Niet buffen, niet vijlen, niet frezen<br>Zo dun en natuurlijk !</p><p class='aligncenter'>Geen droogtijd na applicatie</p><table width='453' border='0' cellspacing='0' cellpadding='5' align='center'><tr><th><p style='text-align:left'>PRIJS<p></th><th><p style='text-align:left'>ABBONNEES<p></th><th><p style='text-align:left'>PUBLIEK<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    en['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – NEXT GENERATION NAIL POLISH</strong></p><p class='aligncenter'>14 day wear without chipping<br>Everlasting shine<br>No buffing, no filing, no drilling<br>So naturally thin !</p><p class='aligncenter'>No post-service dry time</p><table width='453' border='0' cellspacing='0' cellpadding='5' align='center'><tr><th><p style='text-align:left'>PRICES<p></th><th><p style='text-align:left'>MEMBERS<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>APPLICATION - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>REMOVAL - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
 
 
     /////////////////
@@ -334,53 +343,53 @@ function getLanguageResources() {
  	/////////////////
 
     // equatitre1
-    fr['equatitre1'] = "Flux par défaut"; 
-    nl['equatitre1'] = "Flux par défaut"; 
-    en['equatitre1'] = "Default feed"; 
+    fr['equatitre1'] = "Equavie, la cosmetique bio"; 
+    nl['equatitre1'] = "Equavie, biocosmetica"; 
+    en['equatitre1'] = "Equavie, organic cosmetics"; 
 
     // equatext1
-    fr['equatext1'] = "Flux par défaut"; 
-    nl['equatext1'] = "Flux par défaut"; 
-    en['equatext1'] = "Default feed"; 
+    fr['equatext1'] = "<p>Découvrez une nouvelle conception de la beauté, réunissant à la fois l’expertise cosmétique, l’assurance du naturel, le plaisir sensoriel et un plus grand respect de l’environnement.</p><p><strong>La cosmétique bio</strong></p><p>Découvrez la gamme de produits cosmétiques biologiques Equavie inspirée par la richesse des jardins méditerranéens ainsi que par les vertus exceptionnelles des fruits ou des céréales. Une invitation à l’évasion, vers une nature rassurante, authentique et propice au bien-être…</p><p><i>La cosmétique bio Equavie est vendue uniquement chez Wax-Zone Spa</i></p><p><strong>Les compléments alimentaires</strong></p><p>Grâce à des ingrédients authentiques, efficaces et sûrs, les compléments alimentaires Equavie vous aident de l’intérieur à maximiser votre beauté et votre bien-être. Découvrez une gamme innovante, alliant modernité et authenticité.</p><p><i>Les compléments alimentaires Equavie sont vendus dans tous les Instituts Wax-Zone</i></p>"; 
+    nl['equatext1'] = "<p>Ontdek een natuurlijk schoonheidsconcept dat cosmetische expertise verenigt met een natuurlijke look, zintuiglijk genieten en meer respect voor het milieu.</p><p><strong>Biocosmetica</strong></p><p>Ontdek het gamma biologische cosmeticaproducten van Equavie, geïnspireerd door de rijkdom van zuiderse tuinen en de uitzonderlijke weldaden van vruchten of granen. Een uitnodiging voor een trip naar een rustgevende, authentieke natuur die zich perfect leent voor een moment van welzijn …</p><p><i>Nu beschikbaar bij Wax-Zone Spa</i></p><p><strong>Voedingssupplementen</strong></p><p>Dankzij authentieke, efficiënte en veilige ingrediënten, helpen de voedingssupplementen van Equavie uw schoonheid en welzijn te bevorderen van binnenuit. Maak kennis met een innoverend gamma dat moderniteit koppelt aan authenticiteit.</p><p><i>De voedingssupplementen zijn verkrijgbaar in alle instituten van Wax-Zone.</i></p>"; 
+    en['equatext1'] = "<p>Discover a new way of looking at beauty, one which blends cosmetic expertise, the reassurance of nature, sensory pleasure and a greater respect for the environment.</p><p><strong>Organic cosmetics</strong></p><p>Discover the Equavie range of organic cosmetic products inspired by the richness of Mediterranean gardens and the exceptional powers of fruits or cereals. An invitation to escape, to the reassurance of nature, nature which is authentic and cares for your well-being…</p><p><em>Organic cosmetics are available at Wax-Zone Spa</em><em>.</em></p><p><strong>Food supplements</strong></p><p>With their authentic, effective and safe ingredients Equavie food supplements help you to maximise your beauty and well-being from within. Discover an innovative range, blending modernity and authenticity.</p><p><em>Dietary supplements are available at all Wax-Zone centres</em><em>.</em></p>"; 
 
 
 
 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // messagesent
+    fr['messagesent'] = "Votre message a bien été envoyé !"; 
+    nl['messagesent'] = "Uw bericht is verstuurd!"; 
+    en['messagesent'] = "Your message has ben sent!"; 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // // phytotitre1
+    // fr['phytotitre1'] = "Flux par défaut"; 
+    // nl['phytotitre1'] = "Flux par défaut"; 
+    // en['phytotitre1'] = "Default feed"; 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // // phytotitre1
+    // fr['phytotitre1'] = "Flux par défaut"; 
+    // nl['phytotitre1'] = "Flux par défaut"; 
+    // en['phytotitre1'] = "Default feed"; 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // // phytotitre1
+    // fr['phytotitre1'] = "Flux par défaut"; 
+    // nl['phytotitre1'] = "Flux par défaut"; 
+    // en['phytotitre1'] = "Default feed"; 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // // phytotitre1
+    // fr['phytotitre1'] = "Flux par défaut"; 
+    // nl['phytotitre1'] = "Flux par défaut"; 
+    // en['phytotitre1'] = "Default feed"; 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // // phytotitre1
+    // fr['phytotitre1'] = "Flux par défaut"; 
+    // nl['phytotitre1'] = "Flux par défaut"; 
+    // en['phytotitre1'] = "Default feed"; 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // // phytotitre1
+    // fr['phytotitre1'] = "Flux par défaut"; 
+    // nl['phytotitre1'] = "Flux par défaut"; 
+    // en['phytotitre1'] = "Default feed"; 
 
     var resources = new Array();
     resources['fr'] = fr;

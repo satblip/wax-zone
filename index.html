@@ -94,7 +94,7 @@
 				</div>
 						<!-- ACCEUIL ITEM -->
 				<div class='acceuilpromo'>
-					<div id='spa2_link' class='acceuilitem margin1'>
+					<div id='spa3_link' class='acceuilitem margin1'>
 						<div class='acceuilitemtitle'>
 							<h3>Wax-Zone SPA</h3>
 							<div class='acceuil_contentimg'>
@@ -1430,22 +1430,28 @@
 						<form method="post" action="" id="contactform">
 							<div class='ligneblock'>
 								<div class='top'>
-								<label>Name:</label>
-								<input type="text" size="45" name="contactname" placeholder="your name" id="contactname" value="" class="">
+								<label id="contact_name_label">Name:</label>
+								<input id="contact_name" type="text" size="45" name="contactname" placeholder="your name" id="contactname" value="" class="">
 								<br>
 								<br>
-								<label class='meil'>Email:&nbsp;</label>
-								<input type="text" size="45" name="email" placeholder="you@example.com" id="email" value="" class="">
-							</div>
+								<label id="contact_mail_label" class='meil'>Email:&nbsp;</label>
+								<input id="contact_mail" type="text" size="45" name="email" placeholder="you@example.com" id="email" value="" class="">
+								<br>
+								<br>
+								<input id="contact_newsletter" type="checkbox" name="newsletter" value="yes"><label id="contact_newsletter_label" for="newsletter">Subscribe to newsletter</label><br>
+								</div>
 							</div>
 
 							<div class='contactr ligneblock'>
 								<!--label for="message">Message:</label-->
-								<textarea  class='styled' name="message" id="message"></textarea>
+								<textarea id="contact_message" class='styled' name="message" id="message"></textarea>
 							<br>
-		    				<input type="submit" class="submit-form" value="Submit" name="submit">
+		    				<input id="contact_submit" type="submit" class="submit-form" value="Submit" name="submit">
 							</div>
 						</form>
+						<div id="contactform_confirm" style="display: none;">
+							<span name="lbl" caption="messagesent">Votre message a bien été envoyé !</span>
+						</div>
 					</div>
 					<div class='interligne'>
 					</div>
@@ -1519,9 +1525,9 @@
 					<ul>
 						<li id='home_link'>Home</li>
 						<li id='job2_link'>Job</li>
-						<li id="lang_fr">FR</li>
-						<li id="lang_en">EN</li>
-						<li id="lang_nl">NL</li>
+						<li id="lang2_fr">FR</li>
+						<li id="lang2_en">EN</li>
+						<li id="lang2_nl">NL</li>
 						<li><a href="http://www.facebook.com/pages/Wax-Zone-Beauty-Center/153549531365908" target="_blank"><img src="img/back/facebook.png"  alt="Facebook"/></a></li>
 					</ul>
 				</div>
