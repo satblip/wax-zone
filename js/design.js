@@ -136,7 +136,7 @@ $('#soins_link').mouseout(function(){
 	$('#submenu').hide();
 });
 
-$('#spa_link, #spa2_link').click(function(){
+$('#spa_link, #spa2_link, #spa3_link').click(function(){
 	loadPage(6);
 	_gaq.push(['_trackEvent', 'page_spa', 'load']);
 	url_rewrite("spa","root");
@@ -172,7 +172,7 @@ $('#soinscorps_link').click(function(){
 	url_rewrite("soins_corps","root");
 });
 
-$('#color_link').click(function(){
+$('#color_link, #color2_link').click(function(){
 	loadPage(12);
 	_gaq.push(['_trackEvent', 'page_color', 'load']);
 	url_rewrite("color","root");
@@ -217,6 +217,7 @@ $('#lang_en, #lang2_en').click(function(){
 	$('#contact_name_label').text('Name:');
 	$('#contact_name').attr("placeholder", "Your name");
 	$('#contact_mail_label').text('Email:');
+	$('#contact_newsletter_label').text("Subscribe to newsletter");
 	_gaq.push(['_trackEvent', 'lang_en', 'load']);
 	lang = "en";
 	urlTagsRedifine();
@@ -233,6 +234,7 @@ $('#lang_fr, #lang2_fr').click(function(){
 	$('#contact_name_label').text('Nom :');
 	$('#contact_name').attr("placeholder", "Votre nom");
 	$('#contact_mail_label').text('Email :');
+	$('#contact_newsletter_label').text("S'incrire à la Newsletter");
 	_gaq.push(['_trackEvent', 'lang_fr', 'load']);
 	lang = "fr";
 	urlTagsRedifine();
@@ -249,6 +251,7 @@ $('#lang_nl, #lang2_nl').click(function(){
 	$('#contact_name_label').text('Naam :');
 	$('#contact_name').attr("placeholder", "Uw naam");
 	$('#contact_mail_label').text('Email :');
+	$('#contact_newsletter_label').text("Registreer hier voor de nieuwsbrief");
 	_gaq.push(['_trackEvent', 'lang_nl', 'load']);
 	lang = "nl";
 	urlTagsRedifine();
@@ -323,8 +326,27 @@ $("#contactform").submit(function(e) {
 			_gaq.push(['_trackEvent', 'newsletter_subscription', 'load']);
 		}
 		// Submit message
+		_gaq.push(['_trackEvent', 'Send_message_with_contact', 'load']);
+		var chat_name = $('#contact_name').val();
+		var chat_email = $('#contact_mail').val();
+		var chat_message = $('#contact_message').val();
+		e.preventDefault();
 		$('#contactform').hide();
-  		$('#contactform_confirm').show();
+		$.ajax('http://ec2-54-201-155-200.us-west-2.compute.amazonaws.com/mailer/', {
+	      type: 'GET',
+	      data: { "name": chat_name,
+	        "email": chat_email,
+	        "message": chat_message
+	      },
+	      success: function(response) {
+	        $('#contactform_confirm').fadeIn();
+	        console.log(response);
+	        return false;
+	      },
+	      error: function(err){
+	        return false;
+	      }
+	    });
 	  
 	}
 
