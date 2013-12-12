@@ -284,9 +284,9 @@ function getLanguageResources() {
  	/////////////////
 
     // colorzonetext1
-    fr['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – VERNIS SEMI-PERMANENT – DISPONIBLE DANS TOUS NOS INSTITUTS</strong></p><p class='aligncenter'>Tient 14 jours sans écailler<br>Brillance<br>Aucun polissage, aucun ponçage, aucun limage<br>Résultat fin super naturel !</p><p class='aligncenter'>Aucun temps d’attente après la pose</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>TARIFS<p></th><th><p style='text-align:left'>ABBONNES<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
-    nl['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE</strong></p><p class='aligncenter'>Houdt 14 dagen zonder beschadiging<br>Blijvende hoogglans<br>Niet buffen, niet vijlen, niet frezen<br>Zo dun en natuurlijk !</p><p class='aligncenter'>Geen droogtijd na applicatie</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>PRIJS<p></th><th><p style='text-align:left'>ABBONNEES<p></th><th><p style='text-align:left'>PUBLIEK<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
-    en['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – NEXT GENERATION NAIL POLISH</strong></p><p class='aligncenter'>14 day wear without chipping<br>Everlasting shine<br>No buffing, no filing, no drilling<br>So naturally thin !</p><p class='aligncenter'>No post-service dry time</p><table width=""453"" border=""0"" cellspacing=""0"" cellpadding=""5"" align=""center""><tr><th><p style='text-align:left'>PRICES<p></th><th><p style='text-align:left'>MEMBERS<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>APPLICATION - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>REMOVAL - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    fr['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – VERNIS SEMI-PERMANENT – DISPONIBLE DANS TOUS NOS INSTITUTS</strong></p><p class='aligncenter'>Tient 14 jours sans écailler<br>Brillance<br>Aucun polissage, aucun ponçage, aucun limage<br>Résultat fin super naturel !</p><p class='aligncenter'>Aucun temps d’attente après la pose</p><table width='453' border='0' cellspacing='0' cellpadding='5' align='center'><tr><th><p style='text-align:left'>TARIFS<p></th><th><p style='text-align:left'>ABBONNES<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    nl['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE</strong></p><p class='aligncenter'>Houdt 14 dagen zonder beschadiging<br>Blijvende hoogglans<br>Niet buffen, niet vijlen, niet frezen<br>Zo dun en natuurlijk !</p><p class='aligncenter'>Geen droogtijd na applicatie</p><table width='453' border='0' cellspacing='0' cellpadding='5' align='center'><tr><th><p style='text-align:left'>PRIJS<p></th><th><p style='text-align:left'>ABBONNEES<p></th><th><p style='text-align:left'>PUBLIEK<p></th></tr><tr><td>POSE - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>DEPOSE - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
+    en['colorzonetext1'] = "<p class='aligncenter'><strong>COLOR-ZONE – NEXT GENERATION NAIL POLISH</strong></p><p class='aligncenter'>14 day wear without chipping<br>Everlasting shine<br>No buffing, no filing, no drilling<br>So naturally thin !</p><p class='aligncenter'>No post-service dry time</p><table width='453' border='0' cellspacing='0' cellpadding='5' align='center'><tr><th><p style='text-align:left'>PRICES<p></th><th><p style='text-align:left'>MEMBERS<p></th><th><p style='text-align:left'>PUBLIC<p></th></tr><tr><td>APPLICATION - 30 min</td><td>25,00 €</td><td>30,00 €</td></tr><tr><td>REMOVAL - 20 min</td><td>15,00 €</td><td>20,00 €</td></tr></table>"; 
 
 
     /////////////////
@@ -347,10 +347,10 @@ function getLanguageResources() {
 
 
 
-    // phytotitre1
-    fr['phytotitre1'] = "Flux par défaut"; 
-    nl['phytotitre1'] = "Flux par défaut"; 
-    en['phytotitre1'] = "Default feed"; 
+    // messagesent
+    fr['messagesent'] = "Votre message a bien été envoyé !"; 
+    nl['messagesent'] = "Flux par défaut"; 
+    en['messagesent'] = "Default feed"; 
 
     // phytotitre1
     fr['phytotitre1'] = "Flux par défaut"; 

@@ -207,36 +207,48 @@ $('.mentions').click(function(){
 	_gaq.push(['_trackEvent', 'page_mentions', 'load']);
 });
 
-$('#lang_en').click(function(){
+$('#lang_en, #lang2_en').click(function(){
 	changeLanguage("en");
-	$('#lang_fr, #lang_nl').removeClass('pink');
-	$('#lang_en').addClass('pink');
+	$("#lang_fr, #lang2_fr, #lang_nl, #lang2_nl").removeClass('pink');
+	$('#lang_en, #lang2_en').addClass('pink');
 	$('#newsletterSubmit').val('Subscribe');
-	$('#signup_email').attr("placeholder", "you@example.com");
+	$('#signup_email, #contact_mail').attr("placeholder", "you@example.com");
+	$('#contact_submit').val('Submit');
+	$('#contact_name_label').text('Name:');
+	$('#contact_name').attr("placeholder", "Your name");
+	$('#contact_mail_label').text('Email:');
 	_gaq.push(['_trackEvent', 'lang_en', 'load']);
 	lang = "en";
 	urlTagsRedifine();
 	document.title = getPageTitle();
 });
 
-$('#lang_fr').click(function(){
+$('#lang_fr, #lang2_fr').click(function(){
 	changeLanguage("fr");
-	$('#lang_en, #lang_nl').removeClass('pink');
-	$('#lang_fr').addClass('pink');
+	$("#lang_en, #lang2_en, #lang_nl, #lang2_nl").removeClass('pink');
+	$('#lang_fr, #lang2_fr').addClass('pink');
 	$('#newsletterSubmit').val("S'inscrire");
-	$('#signup_email').attr("placeholder", "vous@exemple.com");
+	$('#signup_email, #contact_mail').attr("placeholder", "vous@exemple.com");
+	$('#contact_submit').val('Envoyer');
+	$('#contact_name_label').text('Nom :');
+	$('#contact_name').attr("placeholder", "Votre nom");
+	$('#contact_mail_label').text('Email :');
 	_gaq.push(['_trackEvent', 'lang_fr', 'load']);
 	lang = "fr";
 	urlTagsRedifine();
 	document.title = getPageTitle();
 });
 
-$('#lang_nl').click(function(){
+$('#lang_nl, #lang2_nl').click(function(){
 	changeLanguage("nl");
-	$('#lang_fr, #lang_en').removeClass('pink');
-	$('#lang_nl').addClass('pink');
+	$("#lang_fr, #lang2_fr, #lang_en, #lang2_en").removeClass('pink');
+	$('#lang_nl, #lang2_nl').addClass('pink');
 	$('#newsletterSubmit').val("Registreren");
-	$('#signup_email').attr("placeholder", "u@example.com");
+	$('#signup_email, #contact_mail').attr("placeholder", "u@example.com");
+	$('#contact_submit').val('Opsturen');
+	$('#contact_name_label').text('Naam :');
+	$('#contact_name').attr("placeholder", "Uw naam");
+	$('#contact_mail_label').text('Email :');
 	_gaq.push(['_trackEvent', 'lang_nl', 'load']);
 	lang = "nl";
 	urlTagsRedifine();
@@ -278,6 +290,41 @@ $("#newsletter_signup_form").submit(function(e) {
 		_gaq.push(['_trackEvent', 'newsletter_subscription', 'load']);
 		$('#newsletter').hide();
   		$('#newsletter_confirm').show();
+	  
+	}
+
+});
+
+// Contact form
+$("#contactform").submit(function(e) {
+	e.preventDefault();
+	if(!isValidEmailAddress($('#contact_mail').val())) {
+		$('#contact_mail').addClass('field_with_errors');
+	} else {
+		$('#contact_mail').removeClass('field_with_errors');
+		if ($('#contact_newsletter').is(":checked")){
+			if (lang == "fr"){
+				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			} else if (lang == "nl"){
+				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			} else {
+				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			}
+			
+		    $.ajax(newsletter_url, {
+			    type: 'POST',
+			    data: {"signup[email]": $('#signup_email').val()},
+			    success: function(response) {
+			        
+			    },
+			    error: function(err){
+			    }
+			});
+			_gaq.push(['_trackEvent', 'newsletter_subscription', 'load']);
+		}
+		// Submit message
+		$('#contactform').hide();
+  		$('#contactform_confirm').show();
 	  
 	}
 
