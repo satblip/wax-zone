@@ -38,6 +38,11 @@ p {
 	left: -16px;
 }
 
+.all{
+	position: relative;
+	top: -50px;
+}
+
 .tit{
 	width: 400px !important;
 }
@@ -433,7 +438,7 @@ input[type=submit]
 
 .top{
 	position: relative;
-	top:-120px;
+	top:-90px;
 }
 input[type=button]
 {
