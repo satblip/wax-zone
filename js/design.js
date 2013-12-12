@@ -31,8 +31,8 @@ var browserLang = navigator.language || navigator.userLanguage;
 var urlTagsNames = {};
 
 // Core
-var loadPage = function(a,b,c,d,e,f,g){
-	$('#page' + b +', #page' + c +', #page' + d +', #page' + e +', #page' + f +', #page' + g).hide();
+var loadPage = function(a){
+	$("div[id*='page']").hide();
 	$('#page' + a).show();	
 }
 
@@ -92,42 +92,58 @@ var getPageTitle = function(){
 
 // Triggers
 $('#home_link').click(function(){
-	loadPage(1,2,3,4,5,6,7);
+	loadPage(1);
 	_gaq.push(['_trackEvent', 'page_home', 'load']);
 	url_rewrite("","reset");
 });
 $('#concept_link').click(function(){
-	loadPage(2,1,3,4,5,6,7);
+	loadPage(2);
 	_gaq.push(['_trackEvent', 'page_concept', 'load']);
 	url_rewrite("concept","root");
 });
 
 $('#centres_link').click(function(){
-	loadPage(3,4,5,6,7,1,2);
+	loadPage(3);
 	_gaq.push(['_trackEvent', 'page_centres', 'load']);
 	url_rewrite(urlTagsNames['centres'],"root");
 });
 
 $('#tarifs_link').click(function(){
-	loadPage(4,5,6,7,1,2,3);
+	loadPage(4);
 	_gaq.push(['_trackEvent', 'page_tarifs', 'load']);
 	url_rewrite(urlTagsNames['tarifs'],"root");
 });
 
 $('#soins_link').click(function(){
-	loadPage(5,6,7,1,2,3,4);
+	loadPage(5);
 	_gaq.push(['_trackEvent', 'page_soins', 'load']);
 	url_rewrite(urlTagsNames['soins'],"root");
 });
 
+$('#soins_link').mouseover(function(){
+
+});
+
 $('#spa_link').click(function(){
-	loadPage(6,5,7,1,2,3,4);
+	loadPage(6);
 	_gaq.push(['_trackEvent', 'page_spa', 'load']);
 	url_rewrite("spa","root");
 });
 
 $('#contact_link').click(function(){
-	loadPage(7,1,2,3,4,5,6);
+	loadPage(7);
+	_gaq.push(['_trackEvent', 'page_contact', 'load']);
+	url_rewrite("contact","root");
+});
+
+$('#job2_link').click(function(){
+	loadPage();
+	_gaq.push(['_trackEvent', 'page_contact', 'load']);
+	url_rewrite("contact","root");
+});
+
+$('#contact_link').click(function(){
+	loadPage();
 	_gaq.push(['_trackEvent', 'page_contact', 'load']);
 	url_rewrite("contact","root");
 });
