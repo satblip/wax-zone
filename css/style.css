@@ -11,6 +11,7 @@ body{
 	font-family:Arial;
 	font-size:12px;
 	margin-bottom: 0;
+	margin-top: 0;
 }
 
 p {
@@ -24,9 +25,9 @@ p {
 	/*position: relative;
 	top: -8px;*/
 	padding:20px 20px 0 20px;
-	box-shadow: 6px 0px 30px 0 #ccc , -6px 0px 30px 0 #ccc;   
+	/*box-shadow: 6px 0px 30px 0 #ccc , -6px 0px 30px 0 #ccc;   
 	-moz-box-shadow: 6px 0 30px 0  #ccc, -6px 0 30px 0  #ccc;   
-	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; 
+	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; */
 	
 }
 
@@ -35,6 +36,10 @@ p {
 	position: relative;
 	top:-18px;
 	left: -16px;
+}
+
+.tit{
+	width: 400px !important;
 }
 
 .logo {
@@ -76,12 +81,46 @@ div .menu {
 	cursor: pointer;
 }
 
-.link {
-	padding-right: 24px;
+.menucentre{
+	width: 65px !important;
 }
+
+.menuprix{
+	width: 77px  !important;
+}
+
+.menumarque{
+	width: 146px  !important;
+}
+
+.submenu{
+	display: list-item;
+	z-index: 1000000;
+
+}
+
+.submenu li{
+	width: 160px;
+	padding: 15px 0 15px 10px;
+	display: list-item;
+	background-color: #212121;
+	float: left;
+	border-bottom: 2px #efefef;
+}
+
+.link {
+	padding-right: 18px;
+}
+
 
 .lang {
 	padding-right:0px;
+}
+
+.langue{
+	position: relative;
+	top:-43px;
+	left:500px;
 }
 
 .interligne{
@@ -116,6 +155,10 @@ div .menu {
 	width: 250px;
 }
 
+.acceuilitem:hover{
+	cursor: pointer;
+}
+
 .margin1{
 	margin-right: 50px;
 }
@@ -130,6 +173,8 @@ h1 {
 	font-weight: normal !important;
 	margin-top: 0;
 	margin-bottom: 0;
+	display: inline;
+	white-space: nowrap;
 }
 
 
@@ -140,6 +185,7 @@ h2 {
 	font-weight: normal !important;
 	padding-top: 5px;
 	margin-bottom: 0;
+	white-space: nowrap;
 }
 
 h3 {
@@ -147,6 +193,7 @@ h3 {
 	color: #76715d;
 	font-family: title;
 	font-weight: normal !important;
+	white-space: nowrap;
 }
 
 h4 {
@@ -155,6 +202,7 @@ h4 {
 	font-family: title;
 	font-weight: normal !important;
 	margin-bottom: 10px;
+	white-space: nowrap;
 
 }
 
@@ -209,7 +257,15 @@ h4 {
 
 .table{
 	display: inline-block;
+	width: 500px;
 }
+
+.pricetable{
+	width:453px ;
+	border:0 ; 
+	padding:5px;
+}
+
 .tarifimg{
 	border-radius: 4px;
 	display: inline-block;
@@ -228,6 +284,10 @@ h4 {
 	margin-right: 280px;
 	position: relative;
 	top: -110px;
+}
+
+.soinsimages img:hover{
+	cursor: pointer;
 }
 
 .soinsdroite{
@@ -264,6 +324,72 @@ h4 {
 	opacity: 0.6;
 }
 
+.contactr{
+	padding-left: 40px;
+}
+
+/*NEWSLETTRE*/
+
+.newspos{
+	position: relative;
+	top: 12px;
+	left: 16px;
+}
+
+
+label{
+	font-size: 11px;
+	text-align: center;
+	color: #76715d;
+	font-family: title;
+	font-weight: normal !important;
+}
+
+input[type=text]
+{
+    border:solid 1px #BFBDBD;
+    color: #979797;
+    height: 28px;
+    padding-left:10px;
+    width: 180px;
+    box-shadow: 1px 1px 0 #828181 inset;
+}
+
+.styled {
+	width: 600px;
+	height: 170px;
+	border:solid 1px #BFBDBD;
+	border-radius: 4px;
+	padding: 5px;
+	font-family: title, sans-serif;
+	font-size: 12px;
+	box-shadow: 1px 1px 0 #828181 inset;
+	resize:none;
+}
+input[type=button]
+{
+    background-color: #1E1E1E;
+    color: #979797;
+    height: 24px;
+    width: 103px;
+    color: #bbbbbb;
+    text-transform:uppercase;
+    box-shadow:-1px 2px #6E6B6A inset;
+}
+
+input[type=button], input[type=text]
+{
+    border: 0;
+    border-radius:5px;
+    font-family: title,Arial;
+}
+
+.field_with_errors{
+	border:solid 2px rgba(203, 25, 19, 0.3) !important;
+	box-shadow:0px 0px !important;
+}
+
+
 footer {
 	/*margin-bottom:25px;*/
 	background-color: #f8f8f8;
@@ -277,11 +403,22 @@ footer {
 	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; */
 }
 
-.copy{
-	/*float: left;*/
+/*FOOTER*/
+
+.copy {
+	text-decoration: none;
+	font-size: 10px;
+	margin-right: 530px;
 }
-.footerlink{
-	float: right;
+
+.mentions:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.footerlink li:hover{
+	color:#fc699b;
+	cursor: pointer;
 }
 
 .footerlink ul li{

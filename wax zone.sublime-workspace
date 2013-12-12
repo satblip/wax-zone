@@ -235,6 +235,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/orbit.css",
+			"settings":
+			{
+				"buffer_size": 4088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/jquery.orbit.js",
+			"settings":
+			{
+				"buffer_size": 16413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WAX-ZONE.html",
+			"settings":
+			{
+				"buffer_size": 14920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/studiomate/Documents/WEBSITES/puig2/index.html",
+			"settings":
+			{
+				"buffer_size": 26520,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -260,13 +308,6 @@
 	},
 	"file_history":
 	[
-		"/Users/satblip/Dropbox/Coding/Wax-zone/index.html",
-		"/Users/satblip/Dropbox/Coding/Wax-zone/newsletter.html",
-		"/Users/studiomate/Documents/WEBSITES/puig2/index.html",
-		"/Users/satblip/Dropbox/Coding/Wax-zone/WAX-ZONE.html",
-		"/Users/satblip/Dropbox/Coding/Wax-zone/js/jquery.orbit.js",
-		"/Users/satblip/Dropbox/Coding/Wax-zone/css/orbit.css",
-		"/Users/satblip/Dropbox/Coding/Wax-zone/css/style.css",
 		"/Users/studiomate/Downloads/orbit-1.2.3/demo/demo.html",
 		"/Users/studiomate/Documents/WEBSITES/Wax-zone/WAX-ZONE.html",
 		"/Users/studiomate/Documents/WEBSITES/Backend rterv/index.html",
@@ -274,6 +315,7 @@
 		"/Users/studiomate/Documents/WEBSITES/Backend rterv/css/style.css",
 		"/Users/studiomate/Documents/WEBSITES/Stl rec/home.html",
 		"/Users/studiomate/Documents/WEBSITES/Backend rterv/bootstrap.html",
+		"/Users/studiomate/Documents/WEBSITES/puig2/index.html",
 		"/Users/studiomate/Documents/WEBSITES/puig2/img/background/ru_page_wellness.jpg",
 		"/Users/studiomate/Pictures/soundcloud-logo.gif",
 		"/Users/studiomate/Downloads/bootstrap/bootstrap.html",
@@ -365,8 +407,171 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2201,
+								2092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 1125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/orbit.css",
+					"settings":
+					{
+						"buffer_size": 4088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3508,
+								3508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/jquery.orbit.js",
+					"settings":
+					{
+						"buffer_size": 16413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1338,
+								1338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "WAX-ZONE.html",
+					"settings":
+					{
+						"buffer_size": 14920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7564,
+								7564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1777.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/studiomate/Documents/WEBSITES/puig2/index.html",
+					"settings":
+					{
+						"buffer_size": 26520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 33.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -411,10 +616,6 @@
 		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"newsletter.html"
-			]
 		],
 		"width": 0.0
 	},
@@ -429,7 +630,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }
