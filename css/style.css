@@ -419,6 +419,8 @@ input[type=submit]
 
 .styled {
 	width: 600px;
+	display: absolute;
+	top;
 	height: 170px;
 	border:solid 1px #BFBDBD;
 	border-radius: 4px;
@@ -427,6 +429,11 @@ input[type=submit]
 	font-size: 12px;
 	box-shadow: 1px 1px 0 #828181 inset;
 	resize:none;
+}
+
+.top{
+	position: relative;
+	top:-120px;
 }
 input[type=button]
 {
