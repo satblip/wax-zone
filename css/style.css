@@ -94,19 +94,51 @@ div .menu {
 }
 
 .submenu{
-	
-	z-index: 1000000;
+	font-family: title;
+	list-style: none;
+	color: #76715d;
 
 }
 
+.submenu > ul:before{
+	display: block;
+	border-color: transparent transparent #000000 transparent;
+	border-style: solid;
+	border-width: 10px;
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -10px;
+}
+
 .submenu li{
-	display: list-item;
+	font-family: title;
+	font-size: 12px;
+	list-style-type: none;
+	opacity: 1;
 	width: 160px;
+	height: 18px !important;
+	position: relative;
+	top: -65px;
+	left: 210px;
+	z-index: 1000;
 	padding: 15px 0 15px 10px;
-	display: list-item;
 	background-color: #212121;
-	float: left;
 	border-bottom: 2px #efefef;
+	-webkit-transition: all .3s .1s;
+  	-moz-transition: all .3s .1s;
+  	-o-transition: all .3s .1s;
+  	transition: all .3s .1s;
+}
+
+.trans{
+	background-color: transparent !important;
+}
+
+.submenu li:hover{
+	opacity: 0.9;
+	cursor: pointer;
+
 }
 
 .link {
@@ -345,8 +377,8 @@ h4 {
 
 .newspos{
 	position: relative;
-	top: 12px;
-	left: 16px;
+	top: -90px;
+	left: 650px;
 }
 
 
@@ -421,7 +453,7 @@ footer {
 .copy {
 	text-decoration: none;
 	font-size: 10px;
-	margin-right: 530px;
+	margin-right: 440px;
 }
 
 .mentions:hover{
