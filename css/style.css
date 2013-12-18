@@ -6,7 +6,7 @@ src: url('../font/menu.woff'),
 } 
 
 body{	
-	background-color:#76715d;
+	background-color:#12110E;
 	color:#000000;
 	font-family:Arial;
 	font-size:12px;
@@ -31,11 +31,24 @@ p {
 	
 }
 
+.logobig {
+	background-color:#12110E;
+	width: 940px;
+	height: 300px;
+	margin: auto;
+}
+
+.logobig > img {
+	position: relative;
+	top:65px;
+	cursor: pointer;
+}
+
 .header{
 	margin-bottom: 20px;
 	position: relative;
-	top:-18px;
-	left: -16px;
+	top:-0px;
+	left: 0px;
 }
 
 .all{
@@ -58,13 +71,14 @@ p {
 
 .menu_container{
 	position: relative;
-	top:-46px;
-	left:-00px;
+	top:-20px;
+	left:260px;
 	background: url(../img/back/menu_shadow.png) center bottom no-repeat;
 	width: 597px;
 	height: 70px;
-	float: right;
+	margin-bottom: 20px;
 }
+
 
 div .menu {
 	font-family: title;
@@ -107,15 +121,14 @@ div .menu {
 	position: relative;
 	padding-left: 0 !important;
 	top: -105px;
-	left: 240px;
-
+	left: 305px;
 }
 
 .submenufleche{
 	position: relative;
 	margin-top: 30px;
 	top: -90px;
-	left: 270px;
+	left: 320px;
 	
 }
 
@@ -167,7 +180,7 @@ div .menu {
 .langue{
 	position: relative;
 	top:-43px;
-	left:500px;
+	left:550px;
 }
 
 .interligne{
@@ -378,6 +391,11 @@ h4 {
 
 /*CSS POUR LES PAGE CONTACT*/
 
+.contact {
+	position: relative;
+	top: 20px;
+}
+
 .clic:hover{
 	cursor: pointer;
 	opacity: 0.6;
@@ -385,19 +403,31 @@ h4 {
 
 .contactr{
 	padding-left: 40px;
+	position: relative;
+	left: 220px;
+	margin-bottom: 100px;
+}
+
+.top{
+	position: absolute;
+	top:0px;
+}
+
+.meil {
+	padding-right: 4px;
 }
 
 /*NEWSLETTRE*/
 
 .newspos{
-	position: relative;
-	top: -90px;
-	left: 650px;
+	position: fixed;
+	top: 0px;
+	right: 10px;
 }
 
 
 label{
-	font-size: 11px;
+	font-size: 15px;
 	text-align: center;
 	color: #76715d;
 	font-family: title;
@@ -436,10 +466,7 @@ input[type=submit]
 	resize:none;
 }
 
-.top{
-	position: relative;
-	top:-90px;
-}
+
 input[type=button]
 {
     background-color: #1E1E1E;

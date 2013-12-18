@@ -91,11 +91,12 @@ var getPageTitle = function(){
 
 
 // Triggers
-$('#home_link').click(function(){
+$('#home_link, #home2_link').click(function(){
 	loadPage(1);
 	_gaq.push(['_trackEvent', 'page_home', 'load']);
 	url_rewrite("","reset");
 });
+
 $('#concept_link').click(function(){
 	loadPage(2);
 	_gaq.push(['_trackEvent', 'page_concept', 'load']);
@@ -140,6 +141,12 @@ $('#spa_link, #spa2_link, #spa3_link').click(function(){
 	loadPage(6);
 	_gaq.push(['_trackEvent', 'page_spa', 'load']);
 	url_rewrite("spa","root");
+});
+
+$('#misen_link, #misen2_link').click(function(){
+	loadPage(18);
+	_gaq.push(['_trackEvent', 'page_spa', 'load']);
+	url_rewrite("misencil","root");
 });
 
 $('#contact_link').click(function(){
