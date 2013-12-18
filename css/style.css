@@ -35,14 +35,17 @@ p {
 
 .logobig {
 	background-color:#12110E;
-	width: 940px;
-	height: 300px;
-	margin: auto;
+	position: relative;
+	left: 50%;
+	height: 100px;
+	margin-left: -450px;
+
 }
 
 .logobig > img {
 	position: relative;
-	top:65px;
+	top:30px;
+	width: 350px;
 	cursor: pointer;
 }
 
@@ -246,7 +249,19 @@ div .menu {
 .langue{
 	position: relative;
 	top:-43px;
-	left:550px;
+	left:700px;
+	-webkit-transition: all .9s;
+  	-moz-transition: all .9s;
+  	-o-transition: all .9s;
+  	transition: all .9s;
+}
+
+.langueshift{
+	left: 550px;
+		-webkit-transition: all 0s;
+  	-moz-transition: all 0s;
+  	-o-transition: all 0s;
+  	transition: all 0s;
 }
 
 .interligne{

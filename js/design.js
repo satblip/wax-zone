@@ -32,34 +32,24 @@ var urlTagsNames = {};
 
 //make menu scroll
 var nav = $('.menu_container');
+var trans = $('.menu, .submenu, .submenufleche');
+var logo = $('.logo');
+var langue = $('.langue')
     
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 100) {
             nav.addClass("f-nav");
+            trans.addClass("slide");
+            logo.addClass("viewlogo");
+            langue.addClass('langueshift');
         } else {
             nav.removeClass("f-nav");
-        }
-});
-
-var trans = $('.menu, .submenu, .submenufleche');
-    
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            trans.addClass("slide");
-        } else {
             trans.removeClass("slide");
+            logo.removeClass("viewlogo");
+            langue.removeClass('langueshift');
         }
 });
 
-var logo = $('.logo');
-    
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            logo.addClass("viewlogo");
-        } else {
-            logo.removeClass("viewlogo");
-        }
-});
 
 // Core
 var loadPage = function(a){
