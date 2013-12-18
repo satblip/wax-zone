@@ -111,7 +111,7 @@ var getPageTitle = function(){
 
 
 // Triggers
-$('#home_link, #home2_link').click(function(){
+$('#home_link, #home2_link, #home3_link').click(function(){
 	loadPage(1);
 	_gaq.push(['_trackEvent', 'page_home', 'load']);
 	url_rewrite("","reset");
