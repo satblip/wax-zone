@@ -92,10 +92,10 @@ p {
 	background-color: #12110E;
 }
 
-.sousmenu{
-	position: relative;
+.ombremenu{
+	position: absolute;
 	top: -117px !important;
-	height: 7px;
+	height: 5px;
 	background: transparent; /* Old browsers */
 	background: -moz-linear-gradient(top, #12110e 0%, transparent 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#12110e), color-stop(100%,transparent)); /* Chrome,Safari4+ */
@@ -130,6 +130,12 @@ p {
 	/*box-shadow: 0 3px 0px 0 #cccccc; */
 }
 
+.slide{
+	transform:translateX(155px);
+	-ms-transform:translateX(155px); /* IE 9 */
+	-webkit-transform:translateX(155px); /* Safari and Chrome */
+}
+
 
 div .menu {
 	font-family: title;
@@ -140,7 +146,11 @@ div .menu {
 	font-size:14px;
 	padding-left: 280px;
 	position: relative;
+	left: -155px;
 	top: -80px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+
 }
 
 .menu ul li {
@@ -176,7 +186,7 @@ div .menu {
 	position: relative;
 	padding-left: 0 !important;
 	top: -185px;
-	left: 585px;
+	left: 430px;
 }
 
 .submenufleche{
@@ -184,7 +194,7 @@ div .menu {
 	position: relative;
 	margin-top: 30px;
 	top: -170px;
-	left: 590px;
+	left: 435px;
 	
 }
 

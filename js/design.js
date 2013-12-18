@@ -40,6 +40,17 @@ var nav = $('.menu_container');
             nav.removeClass("f-nav");
         }
 });
+
+var trans = $('.menu, .submenu, .submenufleche');
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            trans.addClass("slide");
+        } else {
+            trans.removeClass("slide");
+        }
+});
+
 var logo = $('.logo');
     
     $(window).scroll(function () {
