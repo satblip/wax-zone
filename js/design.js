@@ -30,6 +30,26 @@ var lang;
 var browserLang = navigator.language || navigator.userLanguage;
 var urlTagsNames = {};
 
+//make menu scroll
+var nav = $('.menu_container');
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            nav.addClass("f-nav");
+        } else {
+            nav.removeClass("f-nav");
+        }
+});
+var logo = $('.logo');
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            logo.addClass("viewlogo");
+        } else {
+            logo.removeClass("viewlogo");
+        }
+});
+
 // Core
 var loadPage = function(a){
 	$("div[id*='page']").hide();
