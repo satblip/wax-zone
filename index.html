@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Wax-Zone // Institut de beauté</title>
+<link rel="icon" type="" href="favicon.ico">
 <meta name="description" content="Institut de beauté // Centre esthétique // Bruxelles &#8211; Ixelles &#8211; Uccle &#8211; Etterbeek &#8211; Stockel &#8211; Waterloo// Wax-Zone &#8211; Faites-vous du bien plus souvent // Soins sans rendez-vous" />
 <meta name="keywords" content="Institut de beauté, Centre esthétique, Bruxelles, Ixelles, Uccle, Etterbeek, Stockel, Waterloo, Wax-Zone, sans rendez-vous" />
 <meta property="og:title" content="Wax-Zone" />
@@ -21,15 +22,30 @@
 <body>
 																<!--
 																HEADER
+							
 																-->	
-	<div class='container'>
+	<div id='home_link' class='logobig'>
+		<img src="img/back/logobig.png">
+	</div>
+	<div id="newsletter" class='newspos'>
+		<form action="" id="newsletter_signup_form" method="post">
+          <label for="signup_email">Newsletter: </label><br>
+          <input id="signup_email" name="signup[email]" placeholder="you@example.com" type="text"/>
+          <input id="newsletterSubmit" name="submit" type="submit" value="S'inscrire"/>
+    	</form>
+	</div>
+	<div id="newsletter_confirm" style='display:none'>
+		<p>Vous êtes bien inscrit !</p>
+	</div>
+	<div class='containera'>
 		<div class='header'>
-			<div id='home_link' class='logo'>
-				<img src="img/back/logo.png">
-			</div>
 			<div class='menu_container'>
+				<div id='home3_link' class='logo'>
+					<img src="img/back/logo.png">
+				</div>
 				<div class='menu'>
 					<ul class='ligneblock'>
+						<li id='home2_link' class='link'>Home</li>
 						<li id='concept_link' class='link'><span name="lbl" caption="menuconcepttxt">Concept</span></li>
 						<li id='centres_link' class='link'><span name="lbl" caption="menucentrestxt">Centres</span></li>
 						<li id='tarifs_link' class='link'><span name="lbl" caption="menutarifstxt">&nbsp;&nbsp;&nbsp;tarifs&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
@@ -59,17 +75,11 @@
 					</ul>
 				</div>
 			</div>
-			<div id="newsletter" class='newspos'>
-				<form action="" id="newsletter_signup_form" method="post">
-			          <label for="signup_email">Newsletter: </label><br>
-			          <input id="signup_email" name="signup[email]" placeholder="you@example.com" type="text"/>
-			          <input id="newsletterSubmit" name="submit" type="submit" value="S'inscrire"/>
-			    </form>
-		    </div>
-		    <div id="newsletter_confirm" style='display:none'>
-				<p>Vous êtes bien inscrit !</p>
-		    </div>
 		</div>
+	</div>
+	<div class='container'>
+
+
 		<div class='all'>
 																<!--
 																PAGE HOME
@@ -1434,7 +1444,7 @@
 								<input id="contact_name" type="text" size="45" name="contactname" placeholder="your name" id="contactname" value="" class="">
 								<br>
 								<br>
-								<label id="contact_mail_label" class='meil'>Email:&nbsp;</label>
+								<label id="contact_mail_label" class='meil'>Email:</label>
 								<input id="contact_mail" type="text" size="45" name="email" placeholder="you@example.com" id="email" value="" class="">
 								<br>
 								<br>
