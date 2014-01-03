@@ -61,10 +61,12 @@ p {
 	margin-left: -139px;
 	border-radius: 50%;
 	width:210px;
+	cursor: pointer;
 }
 
 .containera{
 	background-color: #12110E;
+	opacity:O;
 	position: relative;
 	left: 50%;
 	margin-left: -480px;
@@ -98,7 +100,7 @@ p {
 .logo {
 	position: relative;
 	left:16px;
-	top: -28px;
+	top: 0px;
 	opacity: 0;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -114,8 +116,9 @@ p {
 
 .menu_container{
 	position: relative;
+	opacity:1;
 	z-index: 9999;
-	/*top:-20px;*/
+	/*top: 20px;*/
 	left:-30px;
 	/*background: url(../img/back/menu_shadow.png) 80% 100% no-repeat;*/
 	width: 960px;
@@ -178,7 +181,7 @@ div .menu {
 	padding-left: 280px;
 	position: relative;
 	left: -95px;
-	top: -75px;
+	top: -62px;
 	-webkit-transition: all .3s .1s;
   	-moz-transition: all .3s .1s;
   	-o-transition: all .3s .1s;
