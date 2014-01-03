@@ -51,8 +51,12 @@ p {
 	margin-left: -230px;
 }
 
-.newslettre > .newstxt {
-	font-size: 20px !important;
+.newstxt {
+	font-size: 22px !important;
+}
+
+.newsinput {
+	font-size: 14px !important;
 }
 
 .arrow{
@@ -223,7 +227,7 @@ div .menu {
 	z-index: 10000;
 	position: relative;
 	padding-left: 0 !important;
-	top: -170px;
+	top: -168px;
 	left: 500px;
 }
 
@@ -231,7 +235,7 @@ div .menu {
 	color: #f8f8f8;
 	position: relative;
 	margin-top: 30px;
-	top: -155px;
+	top: -153px;
 	left: 505px;
 	
 }
@@ -560,7 +564,6 @@ h4 {
 
 
 label{
-	font-size: 22px;
 	text-align: center;
 	color: #76715d;
 	font-family: title;
@@ -571,7 +574,6 @@ input[type=text]
 {
     border:solid 1px #BFBDBD;
     color: #272822;
-    font-size: 14px;
     height: 28px;
     padding-left:10px;
     width: 180px;
@@ -582,7 +584,6 @@ input[type=submit]
     border:solid 1px #BFBDBD;
     border-radius: 4px;
     color: #272822;
-    font-size: 14px;
     height: 29px;
     
 }
