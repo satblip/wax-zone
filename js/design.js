@@ -12,6 +12,15 @@ _gaq.push(['_trackPageview']);
 // Do the magic
 $(document).ready(function(e) {
 
+function scrollToAnchor(aid){
+	var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: 650},'slow');
+}
+
+$('#home_arrow').click(function(){
+	scrollToAnchor("site");
+})
+
 // URL rewritter
 var url_rewrite= function(tag,type){
   if (type == "root"){
@@ -32,18 +41,21 @@ var urlTagsNames = {};
 
 //make menu scroll
 var nav = $('.menu_container');
+var nav2 = $('.containera');
 var trans = $('.menu, .submenu, .submenufleche');
 var logo = $('.logo');
 var langue = $('.langue')
     
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 630) {
             nav.addClass("f-nav");
+            nav2.addClass("viewlogo");
             trans.addClass("slide");
             logo.addClass("viewlogo");
             langue.addClass('langueshift');
         } else {
             nav.removeClass("f-nav");
+            nav2.removeClass("viewlogo");
             trans.removeClass("slide");
             logo.removeClass("viewlogo");
             langue.removeClass('langueshift');
