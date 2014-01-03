@@ -44,7 +44,8 @@ var nav = $('.menu_container');
 var nav2 = $('.containera');
 var trans = $('.menu, .submenu, .submenufleche');
 var logo = $('.logo');
-var langue = $('.langue')
+var langue = $('.langue');
+var maincont = $('.container');
     
     $(window).scroll(function () {
         if ($(this).scrollTop() > 630) {
@@ -53,12 +54,14 @@ var langue = $('.langue')
             trans.addClass("slide");
             logo.addClass("viewlogo");
             langue.addClass('langueshift');
+            maincont.fadeIn();
         } else {
             nav.removeClass("f-nav");
             nav2.removeClass("viewlogo");
             trans.removeClass("slide");
             logo.removeClass("viewlogo");
             langue.removeClass('langueshift');
+            maincont.fadeOut();
         }
 });
 
