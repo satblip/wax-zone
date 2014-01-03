@@ -46,22 +46,34 @@ var trans = $('.menu, .submenu, .submenufleche');
 var logo = $('.logo');
 var langue = $('.langue');
 var maincont = $('.container');
+var pageTrigged;
     
     $(window).scroll(function () {
         if ($(this).scrollTop() > 630) {
+        	pageTrigged = 1;
             nav.addClass("f-nav");
             nav2.addClass("viewlogo");
             trans.addClass("slide");
             logo.addClass("viewlogo");
             langue.addClass('langueshift');
-            maincont.addClass("viewlogo");
         } else {
             nav.removeClass("f-nav");
             nav2.removeClass("viewlogo");
             trans.removeClass("slide");
             logo.removeClass("viewlogo");
             langue.removeClass('langueshift');
+        }
+
+        if ($(this).scrollTop() > 150) {
+            maincont.addClass("viewlogo");
+        } else {
             maincont.removeClass("viewlogo");
+        }
+
+        if (pageTrigged == 1){
+	        if ($(this).scrollTop() < 638) {
+	        	$(this).scrollTop(642);
+	        }
         }
 });
 
