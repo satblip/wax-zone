@@ -2,10 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/Users/studiomate/Documents/WEBSITES/Wax-zone"
-		},
-		{
-			"path": "/Users/studiomate/Documents/WEBSITES/wax zone wp/fr"
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }
