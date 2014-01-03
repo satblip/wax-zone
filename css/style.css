@@ -29,8 +29,8 @@ p {
 	left: 50%;
 	width:940px;
 	margin-left: -470px;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 
 }
 
@@ -44,20 +44,23 @@ p {
 /*NEWSLETTRE*/
 
 .newspos{
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 100px;
 	position: relative;
 	left: 50%;
-	margin-left: -162px;
+	margin-left: -230px;
+}
+
+.newslettre > .newstxt {
+	font-size: 20px !important;
 }
 
 .arrow{
 	position: relative;
 	left: 50%;
-	margin-left: -200px;
+	margin-left: -139px;
 	border-radius: 50%;
-	box-shadow:0 5px 20px 5px white;
-	width:15%;
+	width:210px;
 }
 
 .containera{
@@ -549,7 +552,7 @@ h4 {
 
 
 label{
-	font-size: 15px;
+	font-size: 22px;
 	text-align: center;
 	color: #76715d;
 	font-family: title;
@@ -559,7 +562,8 @@ label{
 input[type=text]
 {
     border:solid 1px #BFBDBD;
-    color: #979797;
+    color: #272822;
+    font-size: 14px;
     height: 28px;
     padding-left:10px;
     width: 180px;
@@ -569,7 +573,8 @@ input[type=submit]
 {
     border:solid 1px #BFBDBD;
     border-radius: 4px;
-    color: #979797;
+    color: #272822;
+    font-size: 14px;
     height: 29px;
     
 }
