@@ -54,14 +54,14 @@ var maincont = $('.container');
             trans.addClass("slide");
             logo.addClass("viewlogo");
             langue.addClass('langueshift');
-            maincont.fadeIn();
+            maincont.addClass("viewlogo");
         } else {
             nav.removeClass("f-nav");
             nav2.removeClass("viewlogo");
             trans.removeClass("slide");
             logo.removeClass("viewlogo");
             langue.removeClass('langueshift');
-            maincont.fadeOut();
+            maincont.removeClass("viewlogo");
         }
 });
 
