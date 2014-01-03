@@ -66,7 +66,7 @@ p {
 
 .containera{
 	background-color: #12110E;
-	opacity:O;
+	opacity: 0;
 	position: relative;
 	left: 50%;
 	margin-left: -480px;
@@ -74,9 +74,9 @@ p {
 	/*position: relative;
 	top: -8px;*/
 	padding:20px 20px 0 20px;
-	/*box-shadow: 6px 0px 30px 0 #ccc , -6px 0px 30px 0 #ccc;   
-	-moz-box-shadow: 6px 0 30px 0  #ccc, -6px 0 30px 0  #ccc;   
-	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; */
+	transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
 	
 }
 
@@ -103,6 +103,7 @@ p {
 	top: 0px;
 	opacity: 0;
 	transition: all 0.4s;
+	-moz-transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 }
 
@@ -221,16 +222,16 @@ div .menu {
 	z-index: 10000;
 	position: relative;
 	padding-left: 0 !important;
-	top: -182px;
-	left: 490px;
+	top: -172px;
+	left: 500px;
 }
 
 .submenufleche{
 	color: #f8f8f8;
 	position: relative;
 	margin-top: 30px;
-	top: -167px;
-	left: 495px;
+	top: -157px;
+	left: 505px;
 	
 }
 
@@ -313,6 +314,7 @@ div .menu {
 	background-color: #f8f8f8;
 	position: relative;
 	left: 50%;
+	opacity: 0;
 	margin-left: -470px;
 	width:900px;
 	/*position: relative;
@@ -327,6 +329,7 @@ div .menu {
 
 .all{
 	margin-top: 0px;
+	min-height: 600px;
 }
 
 #slider{
@@ -616,7 +619,9 @@ input[type=button], input[type=text]
 }
 
 .field_with_errors{
-	border:solid 2px rgba(203, 25, 19, 0.3) !important;
+	-webkit-box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.3) !important;
+    -moz-box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.3) !important;
+    box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.3) !important;
 	box-shadow:0px 0px !important;
 }
 
@@ -626,12 +631,6 @@ footer {
 	background-color: #f8f8f8;
 	/*width:940px;*/
 	margin: auto;
-	/*position: relative;
-	top: -8px;*/
-	/*padding:20px 20px 0 20px;
-	box-shadow: 6px 0px 30px 0 #ccc , -6px 0px 30px 0 #ccc;   
-	-moz-box-shadow: 6px 0 30px 0  #ccc, -6px 0 30px 0  #ccc;   
-	-webkit-box-shadow: 6px 0 30px 0 #ccc, -6px 0 30px 0 #ccc; */
 }
 
 /*FOOTER*/
