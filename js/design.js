@@ -77,7 +77,6 @@ var pageTrigged;
         }
 });
 
-
 // Core
 var loadPage = function(a){
 	$("div[id*='page']").hide();
@@ -88,23 +87,28 @@ var loadPage = function(a){
 var go_to_page= function(){
 	if (urlTag == "concept") {
       $('#concept_link').trigger('click');
+      $(window).scrollTop(642);
     }
    	if (urlTag == "centres" || urlTag == "centra" || urlTag == "centers") {
       $('#centres_link').trigger('click');
+      $(window).scrollTop(642);
     }
     if (urlTag == "tarifs" || urlTag == "prices" || urlTag == "prijs") {
       $('#tarifs_link').trigger('click');
+      $(window).scrollTop(642);
     }
     if (urlTag == "soins" || urlTag == "treatments" || urlTag == "verzorgingen") {
       $('#soins_link').trigger('click');
+      $(window).scrollTop(642);
     }
    	if (urlTag == "spa") {
       $('#spa_link').trigger('click');
+      $(window).scrollTop(642);
     }
     if (urlTag == "contact") {
       $('#contact_link').trigger('click');
+      $(window).scrollTop(642);
     }
-
 }
 
 // Define rewriting names
