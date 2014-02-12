@@ -344,9 +344,9 @@ $("#newsletter_signup_form").submit(function(e) {
 		if (lang == "fr"){
 			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
 		} else if (lang == "nl"){
-			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			newsletter_url = "https://madmimi.com/signups/subscribe/101498";
 		} else {
-			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			newsletter_url = "https://madmimi.com/signups/subscribe/101500";
 		}
 		$('#signup_email').removeClass('field_with_errors');
 	    $.ajax(newsletter_url, {
@@ -377,9 +377,9 @@ $("#contactform").submit(function(e) {
 			if (lang == "fr"){
 				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
 			} else if (lang == "nl"){
-				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+				newsletter_url = "https://madmimi.com/signups/subscribe/101498";
 			} else {
-				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+				newsletter_url = "https://madmimi.com/signups/subscribe/101500";
 			}
 			
 		    $.ajax(newsletter_url, {
