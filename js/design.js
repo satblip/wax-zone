@@ -18,7 +18,16 @@ function scrollToAnchor(aid){
 }
 
 $('#home_arrow').click(function(){
-	scrollToAnchor("site");
+	$('#landing_page').slideUp();
+	nav.addClass("f-nav");
+    nav2.addClass("viewlogo");
+    trans.addClass("slide");
+    logo.addClass("viewlogo");
+    langue.addClass('langueshift');
+    maincont.addClass("viewlogo");
+
+	$('#all_site').fadeIn();
+	$('#slider').orbit();
 })
 
 // URL rewritter
@@ -48,34 +57,34 @@ var langue = $('.langue');
 var maincont = $('.container');
 var pageTrigged;
     
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 630) {
-        	pageTrigged = 1;
-            nav.addClass("f-nav");
-            nav2.addClass("viewlogo");
-            trans.addClass("slide");
-            logo.addClass("viewlogo");
-            langue.addClass('langueshift');
-        } else {
-            nav.removeClass("f-nav");
-            nav2.removeClass("viewlogo");
-            trans.removeClass("slide");
-            logo.removeClass("viewlogo");
-            langue.removeClass('langueshift');
-        }
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() > 0) {
+//         	pageTrigged = 1;
+//             nav.addClass("f-nav");
+//             nav2.addClass("viewlogo");
+//             trans.addClass("slide");
+//             logo.addClass("viewlogo");
+//             langue.addClass('langueshift');
+//         } else {
+//             nav.removeClass("f-nav");
+//             nav2.removeClass("viewlogo");
+//             trans.removeClass("slide");
+//             logo.removeClass("viewlogo");
+//             langue.removeClass('langueshift');
+//         }
 
-        if ($(this).scrollTop() > 150) {
-            maincont.addClass("viewlogo");
-        } else {
-            maincont.removeClass("viewlogo");
-        }
+//         if ($(this).scrollTop() > 150) {
+//             maincont.addClass("viewlogo");
+//         } else {
+//             maincont.removeClass("viewlogo");
+//         }
 
-        if (pageTrigged == 1){
-	        if ($(this).scrollTop() < 638) {
-	        	$(this).scrollTop(642);
-	        }
-        }
-});
+//         // if (pageTrigged == 1){
+// 	       //  if ($(this).scrollTop() < 638) {
+// 	       //  	$(this).scrollTop(642);
+// 	       //  }
+//         // }
+// });
 
 // Core
 var loadPage = function(a){
@@ -87,27 +96,27 @@ var loadPage = function(a){
 var go_to_page= function(){
 	if (urlTag == "concept") {
       $('#concept_link').trigger('click');
-      $(window).scrollTop(642);
+      $(window).scrollTop(0);
     }
    	if (urlTag == "centres" || urlTag == "centra" || urlTag == "centers") {
       $('#centres_link').trigger('click');
-      $(window).scrollTop(642);
+      $(window).scrollTop(0);
     }
     if (urlTag == "tarifs" || urlTag == "prices" || urlTag == "prijs") {
       $('#tarifs_link').trigger('click');
-      $(window).scrollTop(642);
+      $(window).scrollTop(0);
     }
     if (urlTag == "soins" || urlTag == "treatments" || urlTag == "verzorgingen") {
       $('#soins_link').trigger('click');
-      $(window).scrollTop(642);
+      $(window).scrollTop(0);
     }
    	if (urlTag == "spa") {
       $('#spa_link').trigger('click');
-      $(window).scrollTop(642);
+      $(window).scrollTop(0);
     }
     if (urlTag == "contact") {
       $('#contact_link').trigger('click');
-      $(window).scrollTop(642);
+      $(window).scrollTop(0);
     }
 }
 
@@ -317,8 +326,8 @@ $('#lang_nl, #lang2_nl').click(function(){
 	document.title = getPageTitle();
 });
 
-//ORBIT
-$('#slider').orbit();
+// //ORBIT
+// $('#slider').orbit();
 
 // Valid email address
 function isValidEmailAddress(emailAddress) {
