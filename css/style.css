@@ -20,7 +20,23 @@ p {
 	line-height: 25px;
 }
 
+.textmainacceuil {
+	color:#F8F8F8;
+	text-align: center;
+	font-size:22px;
+	margin-bottom: 50px;
+	font-family: title;
+}
 
+.acceuilsubmit {
+	font-size: 50px;
+	color:#F8F8F8;
+	text-align: center;
+	font-family: title;
+	cursor: pointer;
+	padding-top: 50px;
+
+}
 
 
 .logobig {
