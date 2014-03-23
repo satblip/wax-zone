@@ -203,8 +203,8 @@ div .menu {
 	font-size:14px;
 	padding-left: 280px;
 	position: relative;
-	left: -95px;
-	top: -62px;
+	left: -115px;
+	top: -52px;
 	-webkit-transition: all .3s .1s;
   	-moz-transition: all .3s .1s;
   	-o-transition: all .3s .1s;
@@ -304,8 +304,8 @@ div .menu {
 
 .langue{
 	position: relative;
-	top:-45px;
-	left:665px;
+	top:-45px; /*45 pour mettre hauteur menu*/
+	left:615px;
 	-webkit-transition: all .9s;
   	-moz-transition: all .9s;
   	-o-transition: all .9s;
@@ -313,7 +313,7 @@ div .menu {
 }
 
 .langueshift{
-	left: 550px;
+	left: 600px;
 	-webkit-transition: all .35s .009s;
   	-moz-transition: all .35s .009s;
   	-o-transition: all .35s .009s;
@@ -505,7 +505,7 @@ h4 {
 	display: inline-block;
 	margin-right: 280px;
 	position: relative;
-	top: -110px;
+	/*top: -110px;*/
 }
 
 .soinsimages img:hover{
