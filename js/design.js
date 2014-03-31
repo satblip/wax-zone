@@ -264,7 +264,7 @@ $('#equa2_link, #equa_link').click(function(){
 	url_rewrite("equavie","root");
 });
 
-$('#job2_link').click(function(){
+$('#job2_link, #job_link').click(function(){	
 	loadPage(16);
 	_gaq.push(['_trackEvent', 'page_jobs', 'load']);
 	url_rewrite("jobs","root");
