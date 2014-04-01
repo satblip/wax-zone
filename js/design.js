@@ -180,6 +180,7 @@ $('#concept_link').click(function(){
 
 $('#centres_link').click(function(){
 	loadPage(3);
+	$('#map_etterbeek').empty().append('<iframe width="600" height="140" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Wax-Zone%20Etterbeek%2C%20Avenue%20de%20Tervueren%2C%20Brussels%2C%20Belgium&key=AIzaSyCLU2VqJIa5FrABXue3awMmSPaEEQJTO1Q"></iframe>');
 	_gaq.push(['_trackEvent', 'page_centres', 'load']);
 	url_rewrite(urlTagsNames['centres'],"root");
 });
