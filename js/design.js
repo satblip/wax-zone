@@ -9,6 +9,7 @@ _gaq.push(['_trackPageview']);
 	s.parentNode.insertBefore(ga, s);  
 })();
 
+
 // Do the magic
 $(document).ready(function(e) {
 
@@ -17,9 +18,20 @@ function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: 650},'slow');
 }
 
-$('#home_arrow').click(function(){
-	scrollToAnchor("site");
-})
+
+
+// $('#home_arrow').click(function(){
+// 	$('#landing_page').slideUp();
+// 	nav.addClass("f-nav");
+//     nav2.addClass("viewlogo");
+//     trans.addClass("slide");
+//     logo.addClass("viewlogo");
+//     langue.addClass('langueshift');
+//     maincont.addClass("viewlogo");
+
+// 	$('#all_site').fadeIn();
+// 	$('#slider').orbit();
+// })
 
 // URL rewritter
 var url_rewrite= function(tag,type){
@@ -47,39 +59,49 @@ var logo = $('.logo');
 var langue = $('.langue');
 var maincont = $('.container');
 var pageTrigged;
+
+nav.addClass("f-nav");
+nav2.addClass("viewlogo");
+trans.addClass("slide");
+logo.addClass("viewlogo");
+langue.addClass('langueshift');
+maincont.addClass("viewlogo");
+
+$('#all_site').fadeIn();
+$('#slider').orbit();
     
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 630) {
-        	pageTrigged = 1;
-            nav.addClass("f-nav");
-            nav2.addClass("viewlogo");
-            trans.addClass("slide");
-            logo.addClass("viewlogo");
-            langue.addClass('langueshift');
-        } else {
-            nav.removeClass("f-nav");
-            nav2.removeClass("viewlogo");
-            trans.removeClass("slide");
-            logo.removeClass("viewlogo");
-            langue.removeClass('langueshift');
-        }
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() > 0) {
+//         	pageTrigged = 1;
+//             nav.addClass("f-nav");
+//             nav2.addClass("viewlogo");
+//             trans.addClass("slide");
+//             logo.addClass("viewlogo");
+//             langue.addClass('langueshift');
+//         } else {
+//             nav.removeClass("f-nav");
+//             nav2.removeClass("viewlogo");
+//             trans.removeClass("slide");
+//             logo.removeClass("viewlogo");
+//             langue.removeClass('langueshift');
+//         }
 
-        if ($(this).scrollTop() > 150) {
-            maincont.addClass("viewlogo");
-        } else {
-            maincont.removeClass("viewlogo");
-        }
+//         if ($(this).scrollTop() > 150) {
+//             maincont.addClass("viewlogo");
+//         } else {
+//             maincont.removeClass("viewlogo");
+//         }
 
-        if (pageTrigged == 1){
-	        if ($(this).scrollTop() < 638) {
-	        	$(this).scrollTop(642);
-	        }
-        }
-});
-
+//         // if (pageTrigged == 1){
+// 	       //  if ($(this).scrollTop() < 638) {
+// 	       //  	$(this).scrollTop(642);
+// 	       //  }
+//         // }
+// });
 
 // Core
 var loadPage = function(a){
+	$('html,body').animate({scrollTop: 0});
 	$("div[id*='page']").hide();
 	$('#page' + a).show();	
 }
@@ -88,23 +110,28 @@ var loadPage = function(a){
 var go_to_page= function(){
 	if (urlTag == "concept") {
       $('#concept_link').trigger('click');
+      $(window).scrollTop(0);
     }
    	if (urlTag == "centres" || urlTag == "centra" || urlTag == "centers") {
       $('#centres_link').trigger('click');
+      $(window).scrollTop(0);
     }
     if (urlTag == "tarifs" || urlTag == "prices" || urlTag == "prijs") {
       $('#tarifs_link').trigger('click');
+      $(window).scrollTop(0);
     }
     if (urlTag == "soins" || urlTag == "treatments" || urlTag == "verzorgingen") {
       $('#soins_link').trigger('click');
+      $(window).scrollTop(0);
     }
    	if (urlTag == "spa") {
       $('#spa_link').trigger('click');
+      $(window).scrollTop(0);
     }
     if (urlTag == "contact") {
       $('#contact_link').trigger('click');
+      $(window).scrollTop(0);
     }
-
 }
 
 // Define rewriting names
@@ -251,7 +278,7 @@ $('#equa2_link, #equa_link').click(function(){
 	url_rewrite("equavie","root");
 });
 
-$('#job2_link').click(function(){
+$('#job2_link, #job_link').click(function(){	
 	loadPage(16);
 	_gaq.push(['_trackEvent', 'page_jobs', 'load']);
 	url_rewrite("jobs","root");
@@ -313,8 +340,8 @@ $('#lang_nl, #lang2_nl').click(function(){
 	document.title = getPageTitle();
 });
 
-//ORBIT
-$('#slider').orbit();
+// //ORBIT
+// $('#slider').orbit();
 
 // Valid email address
 function isValidEmailAddress(emailAddress) {
@@ -331,9 +358,9 @@ $("#newsletter_signup_form").submit(function(e) {
 		if (lang == "fr"){
 			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
 		} else if (lang == "nl"){
-			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			newsletter_url = "https://madmimi.com/signups/subscribe/101498";
 		} else {
-			newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+			newsletter_url = "https://madmimi.com/signups/subscribe/101500";
 		}
 		$('#signup_email').removeClass('field_with_errors');
 	    $.ajax(newsletter_url, {
@@ -364,9 +391,9 @@ $("#contactform").submit(function(e) {
 			if (lang == "fr"){
 				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
 			} else if (lang == "nl"){
-				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+				newsletter_url = "https://madmimi.com/signups/subscribe/101498";
 			} else {
-				newsletter_url = "https://madmimi.com/signups/subscribe/96405";
+				newsletter_url = "https://madmimi.com/signups/subscribe/101500";
 			}
 			
 		    $.ajax(newsletter_url, {

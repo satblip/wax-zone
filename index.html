@@ -24,9 +24,14 @@
 																HEADER
 							
 																-->
-	<div>	
+	<div id="landing_page" width='100%' style='display:none'>	
 		<div id='home_link' class='logobig'>
 			<img src="img/back/logobig.png">
+		</div>
+		<div id='promoacceuil'>
+			<p class='textmainacceuil'>
+			<span name="lbl" caption="txtpromoacceuil">Wax-Zone vous acceuille avec une nouvelle direction, blablabla
+			</span></p>
 		</div>
 		<div id="newsletter" class='newspos'>
 			<form action="" id="newsletter_signup_form" method="post">
@@ -41,8 +46,16 @@
 		<div id="newsletter_confirm" style='display:none'>
 			<p>Vous êtes bien inscrit !</p>
 		</div>
-		<img id="home_arrow" class='arrow' src="img/back/arrow.png">
+		<div class='acceuilsubmit' id="home_arrow">
+			<p>
+				<span name="lbl" caption="txtpromoacceuil">
+					Continuer vers le site
+				</span>
+			</p>
+		</div>
+		
 	</div>
+	<span id="all_site" style='display:block'>
 	<div class='containera'>
 		<div class='header'>
 			<div class='menu_container'>
@@ -56,7 +69,7 @@
 						<li id='centres_link' class='link'><span name="lbl" caption="menucentrestxt">Centres</span></li>
 						<li id='tarifs_link' class='link'><span name="lbl" caption="menutarifstxt">&nbsp;&nbsp;&nbsp;tarifs&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
 						<li id='soins_link' class='link'><span name="lbl" caption="menusoinstxt">&nbsp;&nbsp;&nbsp;soins & marques&nbsp;&nbsp;&nbsp;</span></li>
-						<li id='spa_link' class='link'><span name="lbl" caption="menuspatxt">Spa</span></li>
+						<li id='spa_link' class='link'><span name="lbl" caption="menusptxt">Beauty School</span></li>
 						<li id='contact_link' class='link'><span name="lbl" caption="menucontacttxt">Contact</span></li>
 					</ul>
 					<div class='langue'>
@@ -68,16 +81,16 @@
 					</div>
 				</div>
 				<div id="submenu" style='display:none'>
-					<div class='submenufleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x25B2;</div>
+					<div class='submenufleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 					<ul class='submenu'>
-						<li id="phyto2_link">Phytomer</li>
+						<li id="phyto2_link">Essie</li> <!-- La page Phytomer deviens Essie -->
 						<li id="yonka2_link">Yon-Ka</li>
-						<li id="opi_link">O.P.I</li>
+						<li id="opi_link">MUD</li> <!-- La page O.P.I deviens MUD -->
 						<li id="soinscorps_link">Soins et massages corps</li>
 						<li id="color_link">Color-Zone</li>
-						<li id="pupa2_link">Pupa Milano</li>
+						<!-- <li id="pupa2_link">Pupa Milano</li>
 						<li id="nova2_link">Novaskin</li>
-						<li id="equa2_link">Equavie</li>
+						<li id="equa2_link">Equavie</li> -->
 					</ul>
 				</div>
 			</div>
@@ -113,9 +126,9 @@
 				<div class='acceuilpromo'>
 					<div id='spa3_link' class='acceuilitem margin1'>
 						<div class='acceuilitemtitle'>
-							<h3>Wax-Zone SPA</h3>
+							<h3>Make-Up Designory</h3>
 							<div class='acceuil_contentimg'>
-								<img src="img/home/img_1.jpg">
+								<img src="img/mud/Face-250x135.png">
 							</div>
 							<span name="lbl" caption="promacceuil1">
 								<p>Vous y retrouvez l'ensemble des soins Wax-Zone ainsi que la formule Spa: Sauna, Shiatsu, Massage aux pierres chaudes,... Plongez-vous dans l'univers de la détente.
@@ -177,8 +190,8 @@
 				</div>
 				<div class='interligne'>
 				</div>
-				<div class='imgbig'><img src="img/concept/NEWpage_concept.png">
-				</div>
+				<!-- <div class='imgbig'><img src="img/concept/NEWpage_concept.png">
+				</div> -->
 				<div class='textall'>
 					<span name="lbl" caption="concepttext1">
 						<p>La vie actuelle est une course poursuite contre le temps et l'argent, ne nous laissant que rarement le temps de prendre une pause pour s'occuper de nous.</p>
@@ -977,15 +990,16 @@
 				</div>
 				<div class='soinsimages'>
 					<div class='soinsgauche'>
-						<img id='phyto_link' class='imgsoins' src='img/soins/page_phytomer_2010-300x100.png'>
+						<img id='misen_link' class='imgsoins' src='img/soins/misencil-300x100.png'>
+						
+						<!-- <img id='phyto_link' class='imgsoins' src='img/soins/page_phytomer_2010-300x100.png'>
 						<img id='pupa_link' class='imgsoins' src='img/soins/pupamilano-300x100.png'>
-						<img id='spa2_link' class='imgsoins' src='img/soins/wax-zone_spa-300x100.png'>
+						<img id='spa2_link' class='imgsoins' src='img/soins/wax-zone_spa-300x100.png'> -->
 					</div>
 					<div class='soinsdroite'>
-						<img id='misen_link' class='imgsoins' src='img/soins/misencil-300x100.png'>
 						<img id='yonka_link' class='imgsoins' src='img/soins/page_yonka_2010-300x100.png'>
-						<img id='equa_link' class='imgsoins' src='img/soins/equavie1-300x100.png'>
-						<img id='nova_link' class='imgsoins' src='img/soins/novaskin2-300x100.jpg'>
+						<!-- <img id='equa_link' class='imgsoins' src='img/soins/equavie1-300x100.png'>
+						<img id='nova_link' class='imgsoins' src='img/soins/novaskin2-300x100.jpg'> -->
 					</div>
 				</div>
 				<div class='interligne'>
@@ -993,20 +1007,20 @@
 			</div>
 
 																<!--
-																MARQUE PHYTOMER
+																MARQUE ESSIE
 																-->														
 
 			<div id='page8' style='display:none'>
 				<div class='pagetitle'>
 					<h1>
 						<span name="lbl" caption="phytotitre1">
-							Phytomer, la beauté marine !
+							Essie
 						</span>
 					</h1>
 				</div>
 				<div class='interligne'>
 				</div>
-				<div class='imgbig'><img src="img/soins/page_phytomer_2010.png">
+				<div class='imgbig'><img src="img/essie/logo900x300.png">
 				</div>
 				<div class='textall'>
 					<span name="lbl" caption="phytotext1">
@@ -1122,7 +1136,7 @@
 				</div>
 			</div>
 																<!--
-																MARQUE OPI
+																MARQUE MUD
 																-->		
 			
 
@@ -1136,7 +1150,7 @@
 				</div>
 				<div class='interligne'>
 				</div>
-				<div class='imgbig'><img src="img/soins/opi.png">
+				<div class='imgbig'><img style="border-radius: 4px" src="img/mud/Face-900x300.png">
 				</div>
 				<div class='textall'>
 					<span name="lbl" caption="opitext1">
@@ -1439,7 +1453,7 @@
 				<div class='textall'>
 					<span name="lbl" caption="contacttext1">
 						<p>N’hésitez pas à nous contacter pour toutes vos questions et suggestions via le formulaire ci-dessous.</p>
-						<p id='job' class='clic'>Si vous souhaitez entrer dans l’univers des instituts de beauté sans rendez-vous, travailler dans une ambiance et un cadre agréable, cliquez ici</p>	
+						<p id='job_link' class='clic'>Si vous souhaitez entrer dans l’univers des instituts de beauté sans rendez-vous, travailler dans une ambiance et un cadre agréable, cliquez ici</p>	
 					</span>
 				</div>
 				
@@ -1551,7 +1565,7 @@
 				</div>
 			</footer>
 	</div>
-
+	</span>
 
 </body>
 <script src='js/jquery.min.js' type='text/javascript'></script>

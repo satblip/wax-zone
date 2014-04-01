@@ -20,7 +20,23 @@ p {
 	line-height: 25px;
 }
 
+.textmainacceuil {
+	color:#F8F8F8;
+	text-align: center;
+	font-size:22px;
+	margin-bottom: 50px;
+	font-family: title;
+}
 
+.acceuilsubmit {
+	font-size: 50px;
+	color:#F8F8F8;
+	text-align: center;
+	font-family: title;
+	cursor: pointer;
+	padding-top: 50px;
+
+}
 
 
 .logobig {
@@ -187,8 +203,8 @@ div .menu {
 	font-size:14px;
 	padding-left: 280px;
 	position: relative;
-	left: -95px;
-	top: -62px;
+	left: -115px;
+	top: -52px;
 	-webkit-transition: all .3s .1s;
   	-moz-transition: all .3s .1s;
   	-o-transition: all .3s .1s;
@@ -288,8 +304,8 @@ div .menu {
 
 .langue{
 	position: relative;
-	top:-45px;
-	left:665px;
+	top:-45px; /*45 pour mettre hauteur menu*/
+	left:615px;
 	-webkit-transition: all .9s;
   	-moz-transition: all .9s;
   	-o-transition: all .9s;
@@ -297,7 +313,7 @@ div .menu {
 }
 
 .langueshift{
-	left: 550px;
+	left: 600px;
 	-webkit-transition: all .35s .009s;
   	-moz-transition: all .35s .009s;
   	-o-transition: all .35s .009s;
@@ -489,7 +505,7 @@ h4 {
 	display: inline-block;
 	margin-right: 280px;
 	position: relative;
-	top: -110px;
+	/*top: -110px;*/
 }
 
 .soinsimages img:hover{
@@ -623,10 +639,9 @@ input[type=button], input[type=text]
 }
 
 .field_with_errors{
-	-webkit-box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.3) !important;
-    -moz-box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.3) !important;
-    box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.3) !important;
-	box-shadow:0px 0px !important;
+	-webkit-box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.65) !important;
+    -moz-box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.65) !important;
+    box-shadow: 0 0 0 5px rgba(203, 25, 19, 0.65) !important;
 }
 
 
