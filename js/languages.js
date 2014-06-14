@@ -103,29 +103,29 @@ function getLanguageResources() {
     en['centrestitre1'] = "Our centres in Belgium";
 
     // ixelleadress                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 v
-    fr['ixelleadress'] = "<p>Rue du Tabellion, 16-18<br>1050 Bruxelles<br>Tél: 02/537.37.70<br>Email: <a href=ixelles@wax-zone.com>ixelles@wax-zone.com</a></p><p class='pink'>Avril -> Sept.:<br> Lundi au samedi : 9h00 - 19h30<br>Octobre -> Mars:<br> Lundi au samedi : 9h30 - 19h00</p>"; 
-    nl['ixelleadress'] = "<p>Nottarisstraat 16-18<br>1050 Brussel<br>Tel: 02/537.37.70<br>Email: <a href=ixelles@wax-zone.com>ixelles@wax-zone.com</a></p><p class='pink'>April -> Sept.:<br> Maandag to Zaterdag : 9.00 tot 19.30 u<br>Oktober -> Maart:<br> Maandag to Zaterdag : 9.30 tot 19.00 u</p>"; 
-    en['ixelleadress'] = "<p>Rue du Tabellion, 16-18<br>Brussels - 1050<br>Tel: 02/537.37.70<br>Email: <a href=ixelles@wax-zone.com>ixelles@wax-zone.com</a></p><p class='pink'>April -> Sept.:<br> Monday to Saturday : 9.00 am to 7.30 pm<br>Oct. -> March:<br> Monday to Saturday : 9.30 am to 7.00 pm</p>";
+    fr['ixelleadress'] = "<p>Rue du Tabellion, 16-18<br>1050 Bruxelles<br>Tél: 02/537.37.70<br>Email: <a href='mailto:ixelles@wax-zone.com'>ixelles@wax-zone.com</a></p><p class='pink'>Avril -> Sept.:<br> Lundi au samedi : 9h00 - 19h30<br>Octobre -> Mars:<br> Lundi au samedi : 9h30 - 19h00</p>"; 
+    nl['ixelleadress'] = "<p>Nottarisstraat 16-18<br>1050 Brussel<br>Tel: 02/537.37.70<br>Email: <a href='mailto:ixelles@wax-zone.com'>ixelles@wax-zone.com</a></p><p class='pink'>April -> Sept.:<br> Maandag to Zaterdag : 9.00 tot 19.30 u<br>Oktober -> Maart:<br> Maandag to Zaterdag : 9.30 tot 19.00 u</p>"; 
+    en['ixelleadress'] = "<p>Rue du Tabellion, 16-18<br>Brussels - 1050<br>Tel: 02/537.37.70<br>Email: <a href='mailto:ixelles@wax-zone.com'>ixelles@wax-zone.com</a></p><p class='pink'>April -> Sept.:<br> Monday to Saturday : 9.00 am to 7.30 pm<br>Oct. -> March:<br> Monday to Saturday : 9.30 am to 7.00 pm</p>";
 
     // basculeadress
-    fr['basculeadress'] = "<p>Chaussée de Waterloo, 544-546<br>1050 Bruxelles<br>Tél: 02/346.38.88<br>Email: <a href=bascule@wax-zone.com>bascule@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 19h30</p>"; 
-    nl['basculeadress'] = "<p>Waterloosesteenweg, 544-546<br>1050 Brussel<br>Tel: 02/346.38.88<br>Email: <a href=bascule@wax-zone.com>bascule@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 19.30 u</p>"; 
-    en['basculeadress'] = "<p>Chaussée de Waterloo, 544-546<br>Brussels - 1050<br>Tel: 02/346.38.88<br>Email: <a href=bascule@wax-zone.com>bascule@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 7.30 pm</p>";
+    fr['basculeadress'] = "<p>Chaussée de Waterloo, 544-546<br>1050 Bruxelles<br>Tél: 02/346.38.88<br>Email: <a href='mailto:bascule@wax-zone.com'>bascule@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 19h30</p>"; 
+    nl['basculeadress'] = "<p>Waterloosesteenweg, 544-546<br>1050 Brussel<br>Tel: 02/346.38.88<br>Email: <a href='mailto:bascule@wax-zone.com'>bascule@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 19.30 u</p>"; 
+    en['basculeadress'] = "<p>Chaussée de Waterloo, 544-546<br>Brussels - 1050<br>Tel: 02/346.38.88<br>Email: <a href='mailto:bascule@wax-zone.com'>bascule@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 7.30 pm</p>";
 
     // etterbeekadress
-    fr['etterbeekadress'] = "<p>Avenue de Tervueren, 111<br>1040 Bruxelles<br>Tél: 02/733.73.33<br>Email: <a href=etterbeek@wax-zone.com>etterbeek@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 19h30</p>"; 
-    nl['etterbeekadress'] = "<p>Tervurenlaan, 111<br>1040 Brussel<br>Tel: 02/733.73.33<br>Email: <a href=etterbeek@wax-zone.com>etterbeek@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 19.30 u</p>"; 
-    en['etterbeekadress'] = "<p>Avenue de Tervueren, 111<br>Brussels - 1040<br>Tel: 02/733.73.33<br>Email: <a href=etterbeek@wax-zone.com>etterbeek@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 7.30 pm</p>";
+    fr['etterbeekadress'] = "<p>Avenue de Tervueren, 111<br>1040 Bruxelles<br>Tél: 02/733.73.33<br>Email: <a href='mailto:etterbeek@wax-zone.com'>etterbeek@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 19h30</p>"; 
+    nl['etterbeekadress'] = "<p>Tervurenlaan, 111<br>1040 Brussel<br>Tel: 02/733.73.33<br>Email: <a href='mailto:etterbeek@wax-zone.com'>etterbeek@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 19.30 u</p>"; 
+    en['etterbeekadress'] = "<p>Avenue de Tervueren, 111<br>Brussels - 1040<br>Tel: 02/733.73.33<br>Email: <a href='mailto:etterbeek@wax-zone.com'>etterbeek@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 7.30 pm</p>";
 
     // stockeladress
-    fr['stockeladress'] = "<p>Avenue de Hinnisdael, 51<br>1150 Bruxelles<br>Tél: 02/779.26.00<br>Email: <a href=stockel@wax-zone.com>stockel@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 19h30</p>"; 
-    nl['stockeladress'] = "<p>Hinnisdaellaan, 51<br>1150 Brussel<br>Tel: 02/779.26.00<br>Email: <a href=stockel@wax-zone.com>stockel@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 19.30 u</p>"; 
-    en['stockeladress'] = "<p>Avenue de Hinnisdael, 51<br>Brussels - 1150<br>Tel: 02/779.26.00<br>Email: <a href=stockel@wax-zone.com>stockel@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 7.30 pm</p>"; 
+    fr['stockeladress'] = "<p>Avenue de Hinnisdael, 51<br>1150 Bruxelles<br>Tél: 02/779.26.00<br>Email: <a href='mailto:stockel@wax-zone.com'>stockel@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 19h30</p>"; 
+    nl['stockeladress'] = "<p>Hinnisdaellaan, 51<br>1150 Brussel<br>Tel: 02/779.26.00<br>Email: <a href='mailto:stockel@wax-zone.com'>stockel@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 19.30 u</p>"; 
+    en['stockeladress'] = "<p>Avenue de Hinnisdael, 51<br>Brussels - 1150<br>Tel: 02/779.26.00<br>Email: <a href='mailto:stockel@wax-zone.com'>stockel@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 7.30 pm</p>"; 
 
     // wateradress
-    fr['wateradress'] = "<p>Passage Wellington<br>1410 Waterloo<br>Tél: 02/354.00.16<br>Email: <a href=waterloo@wax-zone.com>waterloo@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 18h30</p>"; 
-    nl['wateradress'] = "<p>Passage Wellington<br>1410 Waterloo<br>Tel: 02/354.00.16<br>Email: <a href=waterloo@wax-zone.com>waterloo@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 18.30 u</p>"; 
-    en['wateradress'] = "<p>Passage Wellington<br>Waterloo - 1410<br>Tel: 02/354.00.16<br>Email: <a href=waterloo@wax-zone.com>waterloo@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 6.30 pm</p>"; 
+    fr['wateradress'] = "<p>Passage Wellington<br>1410 Waterloo<br>Tél: 02/354.00.16<br>Email: <a href='mailto:waterloo@wax-zone.com'>waterloo@wax-zone.com</a></p><p class='pink'>Lundi au samedi : 9h30 - 18h30</p>"; 
+    nl['wateradress'] = "<p>Passage Wellington<br>1410 Waterloo<br>Tel: 02/354.00.16<br>Email: <a href='mailto:waterloo@wax-zone.com'>waterloo@wax-zone.com</a></p><p class='pink'>Maandag to Zaterdag : 9.30 tot 18.30 u</p>"; 
+    en['wateradress'] = "<p>Passage Wellington<br>Waterloo - 1410<br>Tel: 02/354.00.16<br>Email: <a href='mailto:waterloo@wax-zone.com'>waterloo@wax-zone.com</a></p><p class='pink'>Monday to Saturday : 9.30 am to 6.30 pm</p>"; 
 
 
     /////////////////
