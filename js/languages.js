@@ -53,9 +53,9 @@ function getLanguageResources() {
  	/////////////////
 
     // txtHomeAcceuil
-    fr['txtHomeAcceuil'] = "<br><h4><center>Faites-vous du bien plus souvent!<br>Wax-Zone s’adresse aux femmes et aux hommes pressés, actifs, soucieux de leur apparence.</h4><br><blockquote><b><u>Pas de rendez-vous à prendre</b></u> des semaines à l’avance, nos esthéticiennes confirmées et professionnelles vous accueillent tous les jours quand VOUS le décidez. L’ambiance contemporaine et chaleureuse de nos instituts vous invitera à découvrir la palette de nos soins perpétuellement mise au goût du jour et à l'affût des dernières tendances.</blockquote></center><br> "; 
-    nl['txtHomeAcceuil'] = "<br><h4><center>Laat uzelf wat vaker verwennen!<br>Wax-Zone richt zich tot actieve mannen en vrouwen met een druk leven die hun uiterlijk verzorgen.</h4><br><blockquote><b><u>U hoeft niet wekenlang op voorhand een afspraak te maken</b></u>, onze ervaren en professionele schoonheidsspecialistes ontvangen u elke dag wanneer ù dat wilt. De eigentijdse en warme sfeer van onze instituten nodigt uit voor een kennismaking met onze verzorgingen die voortdurend worden aangepast aan de laatste smaken en de laatste trends</blockquote></center><br>"; 
-    en['txtHomeAcceuil'] = "<br><h4><center>Be nice to yourself more often!<br>Wax-Zone is for women and men without a great deal of time, who are active,<br>concerned with their appearance.</h4><br><blockquote><b><u>No need to book weeks in advance</b></u> – our experienced and professional beauty experts are ready and waiting for you every day, whenever YOU decide. The contemporary and welcoming atmosphere of our centres is an invitation to you to discover the full range of our treatments, which are perpetually fine-tuned to the taste of now and the direction of the latest trends.</blockquote></center><br>";
+    fr['txtHomeAcceuil'] = "<p><br><h4><center>Faites-vous du bien plus souvent!<br>Wax-Zone s’adresse aux femmes et aux hommes pressés, actifs, soucieux de leur apparence.</h4><br><blockquote><b><u>Pas de rendez-vous à prendre</b></u> des semaines à l’avance, nos esthéticiennes confirmées et professionnelles vous accueillent tous les jours quand VOUS le décidez. L’ambiance contemporaine et chaleureuse de nos instituts vous invitera à découvrir la palette de nos soins perpétuellement mise au goût du jour et à l'affût des dernières tendances.</blockquote></center><br></p>"; 
+    nl['txtHomeAcceuil'] = "<p><br><h4><center>Laat uzelf wat vaker verwennen!<br>Wax-Zone richt zich tot actieve mannen en vrouwen met een druk leven die hun uiterlijk verzorgen.</h4><br><blockquote><b><u>U hoeft niet wekenlang op voorhand een afspraak te maken</b></u>, onze ervaren en professionele schoonheidsspecialistes ontvangen u elke dag wanneer ù dat wilt. De eigentijdse en warme sfeer van onze instituten nodigt uit voor een kennismaking met onze verzorgingen die voortdurend worden aangepast aan de laatste smaken en de laatste trends</blockquote></center><br></p>"; 
+    en['txtHomeAcceuil'] = "<p><br><h4><center>Be nice to yourself more often!<br>Wax-Zone is for women and men without a great deal of time, who are active,<br>concerned with their appearance.</h4><br><blockquote><b><u>No need to book weeks in advance</b></u> – our experienced and professional beauty experts are ready and waiting for you every day, whenever YOU decide. The contemporary and welcoming atmosphere of our centres is an invitation to you to discover the full range of our treatments, which are perpetually fine-tuned to the taste of now and the direction of the latest trends.</blockquote></center><br></p>";
 
     // promacceuil1
     fr['promacceuil1'] = "<p>Vous y retrouvez l'ensemble des soins Wax-Zone ainsi que la formule Spa: Sauna, Shiatsu, Massage aux pierres chaudes,... Plongez-vous dans l'univers de la détente.</p>"; 
@@ -403,6 +403,7 @@ function changeLanguage(lang) {
     var langResources = getLanguageResources()[lang];
  
     $("span[name='lbl']").each(function (i, elt) {
+        $(elt).empty();
         $(elt).html(langResources[$(elt).attr("caption")]);
     });
 }

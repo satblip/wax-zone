@@ -1,0 +1,22 @@
+/* TEAM */
+	Client:Wax-Zone SPRL
+	From:Belgium
+
+	Developper/Designer: Philes Gilles
+	Contact: philes [at] satprod.net
+	From:Belgium
+
+	Developper/Integrator: Louis Borsu
+	Contact: sat [at] satprod.net
+	Twitter: @satblip
+	From:Belgium
+
+	Copywriting/Marketing: Laura Van Caulaert
+	Contact: laura.vancaulaert [at] gmail.com
+	From:Belgium
+
+/* SITE */
+	Last update:2014/04/25
+	Language: English / French / Dutch
+	Doctype:HTML5
+	IDE: Sublime Text
